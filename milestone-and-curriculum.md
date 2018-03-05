@@ -47,7 +47,7 @@
         1. 最後に redux-devtool をインストールする（今後の開発のために）
         
 1. ## Giphy アプリを Redux, Redux-router, Redux-thunk, Aiox で作る
-    総決算。非同期処理(XMLHttpRequest 等)を redux-thunk で処理するのが一番のテーマ。
+    総決算。非同期処理(XMLHttpRequest 等)を redux-thunk で処理するのが一番のテーマ。Material UI も使用する予定。
     
     1. Redux-thunk の導入。ミドルウェアの説明。
 
