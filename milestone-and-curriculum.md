@@ -47,7 +47,11 @@
 1. ## Ajax, XMLHttpRequest で外部 API を叩いてデータを取得するアプリの作成
     エンジニアに馴染みのある勉強会紹介サイト Connpass の API で記事取得するだけのアプリの作成。Ajax, XMLHttpRequest, 非同期通信, Promise 等々の説明。
     
-    1. XMLHttpRequest とは
+    1. ### XMLHttpRequest とは
+    2. ### promise, axios, ajax
+    3. ### API とは
+    4. Connpass API の使い方
+    5. 取得したデータを展開する
     
 1. ## Material UI の使用(ブートストラップのようにあらかじめスタイリングされたコンポーネントです)
     1. 超豪華な todoApp の作成
