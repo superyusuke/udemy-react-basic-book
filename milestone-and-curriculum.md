@@ -10,6 +10,14 @@
 
 - Sprint 3
     3/20 から 3/27 までの一週間
+    
+    - react-router
+    - 開発者ツール
+    - redux, redux todoApp
+    - redux-thunk の実践 Giphy アプリ
+    
+    内容的には高度だが、すでにほとんど説明しているので、説明を簡略化でき、スムーズに進めれることを期待。Redux-thunk の説明が厳しいのと、アプリケーションが大きいので、時間かかる。
+    
 
 
 1. ## Codesandbox で作る最速 React 開発環境
