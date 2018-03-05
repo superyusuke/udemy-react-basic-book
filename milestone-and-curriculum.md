@@ -14,7 +14,7 @@
             1. index.js, index.html, フォルダ階層など構造の説明
             1. JS をさしあたって動かす/  alert を出す
             1. 保存、フォーク、プロジェクト管理リスト
-    
+            
 
 1. ## 初めての React App , React Component
     1. import React, react-dom, render
