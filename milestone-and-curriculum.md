@@ -20,9 +20,15 @@
     1. import React, react-dom, render
     1. JSX とは何か
     1. Component とは何か
-    1. 
+    1. ES2015 の基礎の確認
+        1. import/export
+        2. arrow function
+    1. props で動的に値を受け取る
+        1. props を与える、受ける
+        1. ({})タイプの受け取り方
 
 1. ## State を持ち動的に変化するコンポーネントの作成
+    1. 
 
 1. ## 基礎的な Todo App の作成
 
