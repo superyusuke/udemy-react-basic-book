@@ -1,4 +1,6 @@
 1. ## Codesandbox で作る最速 React 開発環境
+    ブラウザ上で動く開発環境である CodeSandbox を使うことで、即 React 開発をスタートする。React の開発環境の構築でつまづく人が多いので、それを防ぐ。まずは React を書いてもらうところから始める。なお、本講義中盤で Create-react-app を用いたローカル開発環境の作り方も解説する。Webpack を用いた環境構築には他の講座に譲る。
+    
 
 1. ## 初めての React App , React Component
 
