@@ -50,8 +50,8 @@
     1. ### XMLHttpRequest とは
     2. ### promise, axios, ajax
     3. ### API とは
-    4. Connpass API の使い方
-    5. 取得したデータを展開する
+    4. ### Connpass API の使い方
+    5. ### 取得したデータを展開する
     
 1. ## Material UI の使用(ブートストラップのようにあらかじめスタイリングされたコンポーネントです)
     1. 超豪華な todoApp の作成
