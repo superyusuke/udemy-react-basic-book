@@ -98,7 +98,7 @@
     1. 猫→猫の画像が帰って来る→それを表示するサービス
     
 1. ## React-router の導入
-    sprint2.5 3/20 までに
+    sprint3.1 3/27 までに
     
     1. ただルーティングするだけの App を作る
     1. history API
@@ -107,14 +107,14 @@
         1. 入力した文字列を URL にプッシュ
     
 1. ## 開発者ツールの使い方
-    sprint3.1 3/27 までに
+    sprint3.2 3/27 までに
 
     1. Chrome の React 開発者ツールのインストールと説明
     1. JS のデバッグ
     1. CSS, Element を確認する方法
     
 1. ## Redux, React + Redux の導入
-    sprint3.2 3/27 までに
+    sprint3.3 3/27 までに
     
     1. Provider, createStore, reducer, connect を先に React に組み込んでしまう
     1. Reducer の仕組み、 dispatch の仕組み
