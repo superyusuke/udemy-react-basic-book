@@ -27,8 +27,16 @@
         1. ({})タイプの受け取り方
 
 1. ## State を持ち動的に変化するコンポーネントの作成
-    1. 
-
+    1. class コンポーネント
+        1. ES2015 の class の解説
+        1. React の class コンポーネント
+            1. state, constructor, super
+            2. setState で表示を変えるだけのアプリをつくる
+        1. state に関するより進んだ説明
+            1. 状態を水・氷・蒸気で説明
+            1. state で見た目が分岐するH2Oコンポーネントの作成
+                1. CSS を導入
+        
 1. ## 基礎的な Todo App の作成
 
 1. ## Ajax, XMLHttpRequest で外部 API を叩いてデータを取得するアプリの作成
