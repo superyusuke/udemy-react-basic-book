@@ -4,4 +4,6 @@ CodeSandbox は ブラウザ上で動作する IDE (綜合開発環境) で、Re
 
 通常であれば次のようなものが必要になります
 
-- Node.js, Git, Webpack 等の モジュールバンドラー,
+- Node.js
+- Webpack / Browserify 等の モジュールバンドラー
+- Babel による ES2015+ / JSX 等の JavaScript へのトランスコンパイラ
