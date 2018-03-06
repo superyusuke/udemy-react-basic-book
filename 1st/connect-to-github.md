@@ -1,4 +1,4 @@
-# GitHub との連携
+。# GitHub との連携
 
 必須ではありませんが、連携する利点がたくさんあります。ですので、ある程度 CodeSandbox に慣れてきたら、GitHub と連携するようにしましょう
 
@@ -10,6 +10,6 @@
 
 ## 連携する方法
 
-右上の Sign in with GitHub を押す
+右上の Sign in with GitHub を押す。
 
 ![](/assets/codesandbox-connect-to-github.png)
