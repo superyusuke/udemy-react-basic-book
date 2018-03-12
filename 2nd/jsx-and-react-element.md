@@ -15,7 +15,10 @@ render(reactElement, document.getElementById('root'))
 
 ## 参考 const について
 
-`const` は `var` と同じく変数を作るための宣言です。ES2015 以降で使用できます。特徴として、変数を代入することができません。
+`const` は `var` と同じく変数を作るための宣言です。ES2015 以降で使用できます。特徴として、変数を代入することができません。基本的には `const` を使用します
+
+```js
+```
 
 ## JSX は HTML でも JavaScript でもない
 
