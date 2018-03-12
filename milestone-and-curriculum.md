@@ -41,16 +41,16 @@
 
      2. 構造、エディター、ショートカットの説明  
          1. index.js, index.html, フォルダ階層など構造の説明  
-         1. JS をさしあたって動かす/  alert を出す  
-         1. 保存、フォーク、プロジェクト管理リスト
+         1. JS をさしあたって動かす/  alert を出す done3/11
+         1. 保存、フォーク、プロジェクト管理リスト done 3/11
 
 * ## 初めての React App , React Component
 
   sprint1.2 3/13 までに
 
-  1. import React, react-dom, render
-  2. JSX とは何か
-  3. Component とは何か
+  1. import React, react-dom, render 3/11 done
+  2. JSX とは何か 3/11 done
+  3. Component とは何か 
   4. ES2015 の基礎の確認
      1. import/export
      2. arrow function
