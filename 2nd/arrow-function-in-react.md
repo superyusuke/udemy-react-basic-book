@@ -6,7 +6,7 @@
 import React from "react";
 import { render } from "react-dom";
 
-// React Element を返すアローファンクション
+// React Element を返すアロー関数
 const returnReactElement = () => {
   return <h2>text</h2>;
 };
