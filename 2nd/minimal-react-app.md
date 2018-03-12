@@ -1,8 +1,6 @@
 # 最小限の React Application の実装
 
-[動画](https://youtu.be/Gm4cpigN0bg)
-
-[CodeSandox](https://codesandbox.io/s/3458qlzj4q)
+旧 [CodeSandox](https://codesandbox.io/s/3458qlzj4q)
 
 ## 必要のないものを消す
 
@@ -42,7 +40,7 @@ React-dom の render() は、引数を2つ必要とする。一つ目は、JSX �
 render(JSX, target)
 ```
 
-結果こうなる。
+結果次のようになる
 
 ```js
 render(<h2>こんにちは世界<h2/>, document.getElementById('root'))
