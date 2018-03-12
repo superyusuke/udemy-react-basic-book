@@ -10,6 +10,7 @@
   * [最小限の React アプリケーションの実装](2nd/minimal-react-app.md)
   * [JSX と React Element](2nd/jsx-and-react-element.md)
   * [ES2015 のアロー関数について](2nd/arrow-function.md)
+  * [React でアロー関数を使用する](2nd/arrow-function-in-react.md)
 
 
 
