@@ -1,6 +1,6 @@
 # 最小限の React Application の実装
 
-旧 [CodeSandox](https://codesandbox.io/s/3458qlzj4q)
+Code [https://codesandbox.io/s/ypz99xk111](https://codesandbox.io/s/ypz99xk111)
 
 ## 必要のないものを消す
 
@@ -31,10 +31,11 @@ import { render } from 'react-dom'
 render(<h2>こんにちは世界</h2>, document.getElementById('root'))
 ```
 
-### render() について
+### render\(\) について
+
 `import { render } from 'react-dom'` で読み込んだものを早速使う。
 
-React-dom の render() は、引数を2つ必要とする。一つ目は、JSX で書かれたコンテンツ。(JSXについては後述するが、ほぼ HTML と同じ記法でコンテンツを規定する)  二つ目は、React Application を紐づける対象。これは DOM Element で指定する。
+React-dom の render\(\) は、引数を2つ必要とする。一つ目は、JSX で書かれたコンテンツ。\(JSXについては後述するが、ほぼ HTML と同じ記法でコンテンツを規定する\)  二つ目は、React Application を紐づける対象。これは DOM Element で指定する。
 
 ```js
 render(JSX, target)
@@ -45,4 +46,6 @@ render(JSX, target)
 ```js
 render(<h2>こんにちは世界<h2/>, document.getElementById('root'))
 ```
+
+
 
