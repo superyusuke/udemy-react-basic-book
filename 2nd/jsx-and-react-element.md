@@ -13,6 +13,10 @@ console.log(reactElement)
 render(reactElement, document.getElementById('root'))
 ```
 
+## 参考 const について
+
+`const` は `var` と同じく変数を作るための宣言です。ES2015 以降で使用できます。特徴として、変数を代入することができません。
+
 ## JSX は HTML でも JavaScript でもない
 
 `<h2>こんにちは世界</h2>` という部分は、HTML でも JavaScript でもない。.js ファイルに HTML は書けないはずだし、JavaScript としては定義されていない謎の値、つまり変数でも関数でもオブジェクトでもない謎の文字であるので、JavaScript でもない。
