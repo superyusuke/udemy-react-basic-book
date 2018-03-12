@@ -1,7 +1,6 @@
 # 変数と関数を JSX  の中で使用する
 [参考コード](https://codesandbox.io/s/6wkz67jky3)
 
-
 ```js
 import React from 'react'
 import { render } from 'react-dom'
