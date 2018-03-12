@@ -15,7 +15,7 @@ render(reactElement, document.getElementById('root'))
 
 `<h2>こんにちは世界</h2>` という部分は、HTML でも JavaScript でもない。.js ファイルに HTML は書けないはずだし、JavaScript としては定義されていない謎の値、つまり変数でも関数でもオブジェクトでもない謎の文字であるので、JavaScript でもない。
 
-ではなぜ機能するかというと、JSX を開発環境\(今回ならば CodeSandbox ですし、ゆくゆくは Babel がその役割を担うことになります\)が認識して、ReactElement にコンパイルしてくれて、結果 JavaScript のオブジェクトに変換してくれているから。
+ではなぜ機能するかというと、JSX を開発環境\(今回ならば CodeSandbox ですし、ゆくゆくは Babel がその役割を担うことになります\)が認識して、ReactElement にコンパイルしてくれて、結果 JavaScript のオブジェクトに変換してくれているからなのです。
 
 ## JSX は開発環境がコンパイルして、JavaScript のオブジェクトに変換してくれる
 
