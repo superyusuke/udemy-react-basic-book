@@ -1,5 +1,7 @@
 # JSX と React Element について
 
+[Code](https://codesandbox.io/s/jrqv7z2r9)
+
 ```js
 import React from 'react'
 import { render } from 'react-dom'
