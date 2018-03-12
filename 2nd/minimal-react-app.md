@@ -1,6 +1,6 @@
 # 最小限の React Application の実装
 
-Code [https://codesandbox.io/s/ypz99xk111](https://codesandbox.io/s/ypz99xk111)
+[参考コード](https://codesandbox.io/s/ypz99xk111)
 
 ## 必要のないものを消す
 
