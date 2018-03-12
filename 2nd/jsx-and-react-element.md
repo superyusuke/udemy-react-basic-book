@@ -1,7 +1,5 @@
 # JSX と React Element について
 
-\(注: 動画内で JSX を import した React が React Element にトランスコンパイルしている、と言っているがこれは誤り。正しくは以下参照。\)
-
 ```js
 import React from 'react'
 import { render } from 'react-dom'
