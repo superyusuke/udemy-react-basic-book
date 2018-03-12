@@ -17,6 +17,7 @@ const returnReactElement2 = () => <h2>text2</h2>;
 // 引数を受け取り JSX 内で使用するアロー関数
 const returnReactElement3 = hello => <h2>{hello}</h2>;
 
+// 引数を元に、新しい文字列を作って使用するアロー関数
 const returnReactElement4 = (no, name) => {
   const newStrings = `${no}番目は${name}さんです。`;
   return <h2>{newStrings}</h2>;
