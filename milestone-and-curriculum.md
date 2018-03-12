@@ -50,7 +50,7 @@
 
   1. import React, react-dom, render 3/11 done
   2. JSX とは何か 3/11 done
-  3. Component とは何か 
+  3. Component とは何か 3/11 done
   4. ES2015 の基礎の確認
      1. import/export
      2. arrow function
