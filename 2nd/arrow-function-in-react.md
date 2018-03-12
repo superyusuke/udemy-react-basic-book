@@ -1,3 +1,5 @@
+# React の中でアロー関数を使用する
+
 ```js
 import React from "react";
 import { render } from "react-dom";
