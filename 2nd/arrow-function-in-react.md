@@ -1,4 +1,4 @@
-# React の中でアロー関数を使用する
+# React でアロー関数を使用する
 
 ```js
 import React from "react";
