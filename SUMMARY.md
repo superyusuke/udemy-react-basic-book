@@ -6,7 +6,7 @@
   * [CodeSandbox を使う利点](1st/merit-of-codesandbox.md)
   * [GitHub との連携](1st/connect-to-github.md)
   * [CodeSandbox の構造](1st/structure.md)
-* [2章]
+* [2章](2nd/README.md)
   * [最小限の React アプリケーションの実装](2nd/minimal-react-app.md)
 
 
