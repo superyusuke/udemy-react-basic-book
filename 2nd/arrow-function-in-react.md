@@ -1,5 +1,7 @@
 # React でアロー関数を使用する
 
+アロー関数の React アプリケーション開発における実際的なユースケースをみていきましょう。
+
 ```js
 import React from "react";
 import { render } from "react-dom";
