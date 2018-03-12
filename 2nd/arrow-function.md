@@ -1,5 +1,7 @@
 # アロー関数
 
+[参考コード](https://codesandbox.io/s/13v7v14zo4)
+
 ```js
 // 伝統的な関数の書き方
 function name1() {
