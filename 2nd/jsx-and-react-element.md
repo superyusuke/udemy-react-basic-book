@@ -6,7 +6,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-const reactElement = <h2>こんにちは世界</h2>
+var reactElement = <h2>こんにちは世界</h2>
 
 console.log(reactElement)
 
