@@ -66,7 +66,7 @@
   2. ### React の class コンポーネント 3/20done
 
      1. state, constructor, super 3/20 done
-     2. setState で表示を変えるだけのアプリをつくる
+     2. setState で表示を変えるだけのアプリをつくる 3/20
   3. ### state に関するより進んだ説明
 
      1. 状態を水・氷・蒸気で説明
