@@ -63,5 +63,24 @@ class Human extends React.Component {
 ## state を与える
 
 ```js
+class Human extends React.Component {
+  constructor(props) {
+    super(props);
+    // 必ずオブジェクトを与えること
+    this.state = { name: "Nakanishi" };
+  }
+
+  render() {
+    return (
+      <h2>
+        // state を参照する
+        {this.state.name} {this.props.age}
+      </h2>
+    );
+  }
+}
+
+render(<Human age="30" />, document.getElementById("root"));
+
 ```
 
