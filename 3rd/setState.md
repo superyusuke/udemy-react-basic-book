@@ -2,6 +2,11 @@
 
 [参考コード](https://codesandbox.io/s/2w4jn7y3kp)
 
+先ほど書いた App では、 state は用いていましたが、state を変更する仕組みはありませんでした。そのため動的に変化する App ではありませんでした。
+
+さらに this.setState() を用いて state を変更する仕組みを追加する。
+
+
 ```js
 import React from "react";
 import { render } from "react-dom";
@@ -36,3 +41,4 @@ class Human extends React.Component {
 render(<Human age="30" />, document.getElementById("root"));
 
 ```
+
