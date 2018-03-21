@@ -21,7 +21,7 @@ const returnReactElement = () => {
 };
 
 // 関数なので以下のように実行して使う
-// returnReactElement
+// returnReactElement()
 
 // 全く同じ内容のまま、冒頭を大文字にする
 const returnReactElement = () => {
