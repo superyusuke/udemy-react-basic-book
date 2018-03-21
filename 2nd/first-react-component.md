@@ -1,7 +1,9 @@
-# React における Component
+# 初めての React Component
 
 
 ## 一般的に Component とは
+
+![](/assets/react-component.001.png)
 
 
 
