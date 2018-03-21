@@ -1,7 +1,6 @@
 #ES2015 のクラス構文
 
-動画: [https://youtu.be/gg-ivZEYsFA](https://youtu.be/gg-ivZEYsFA)
-コード: [https://codesandbox.io/s/lln07164ym](https://codesandbox.io/s/lln07164ym)
+[参考コード]()
 
 React.Component を ES2015 の class 構文で書く前に、単なる JavaScript の ES2015 class 構文を復習します。
 
