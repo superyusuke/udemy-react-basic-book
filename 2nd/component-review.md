@@ -1,5 +1,7 @@
 # 2章の復習
 
+[参考コード](https://codesandbox.io/s/3xlop5o8p1)
+
 ### index.js
 
 ```js
