@@ -11,6 +11,5 @@
   * [JSX と React Element](2nd/jsx-and-react-element.md)
   * [ES2015 のアロー関数について](2nd/arrow-function.md)
   * [React でアロー関数を使用する](2nd/arrow-function-in-react.md)
-
-
+* [初めての React Component](chu-3081-3066-306ereact-component.md)
 
