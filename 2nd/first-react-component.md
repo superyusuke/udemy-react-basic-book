@@ -30,9 +30,9 @@ const renderElement = () => {
 // 全く同じ内容のまま、冒頭を大文字にする
 const RenderElement = () => {
   return (
-    <div>
-      Name: Music:
-    </div>
+    <h2>
+      name
+    </h2>
   )
 }
 
