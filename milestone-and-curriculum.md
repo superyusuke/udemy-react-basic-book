@@ -62,10 +62,10 @@
 
   sprint1.3 3/13 までに
 
-  1. ### ES2015 の class の解説
-  2. ### React の class コンポーネント
+  1. ### ES2015 の class の解説　3/20done
+  2. ### React の class コンポーネント 3/20done
 
-     1. state, constructor, super
+     1. state, constructor, super 3/20 done
      2. setState で表示を変えるだけのアプリをつくる
   3. ### state に関するより進んだ説明
 
