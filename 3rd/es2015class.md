@@ -73,15 +73,14 @@ console.log(Nakanishi)
 ## class が持つファンクション = class method を定義する
 
 ```js
-class Human() {
+class Human {
   constructor(name, age) {
-    this.name = name
-    this.age = age
+    this.name = name;
+    this.age = age;
   }
-  
-  // constructor の外でメソッドは定義すること
+
   callMyProfile() {
-    console.log(this.name, this.age)
+    console.log(this.name, this.age);
   }
 }
 
