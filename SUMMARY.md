@@ -12,4 +12,5 @@
   * [ES2015 のアロー関数について](2nd/arrow-function.md)
   * [React でアロー関数を使用する](2nd/arrow-function-in-react.md)
   * [初めての React Component](2nd/first-react-component.md)
+  * [ES2015 の import / export](2nd/import-export.md)
 
