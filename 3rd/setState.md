@@ -85,6 +85,7 @@ class Human extends React.Component {
 
 ```js
 
+// state を変更するためには this.setState() を用いる
 this.setState({ name: this.state.name + "san" });
 
 ```
