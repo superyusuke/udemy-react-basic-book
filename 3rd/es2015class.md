@@ -51,7 +51,7 @@ class Human() {
 }
 
 // new 演算子を使って class からインスタンスを作成する
-const Nakanishi = new Human()
+const Nakanishi = new Human();
 ```
 
 ## new でインスタンスを作成する際に、引数を渡し、インスタンスのプロパティにアサインする
@@ -66,8 +66,8 @@ class Human() {
   }
 }
 
-const Nakanishi = new Human('Nakanishi', 30)
-console.log(Nakanishi)
+const Nakanishi = new Human('Nakanishi', 30);
+console.log(Nakanishi);
 ```
 
 ## class が持つファンクション = class method を定義する
