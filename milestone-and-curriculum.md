@@ -132,14 +132,14 @@
 
 * ## [giphy](https://giphy.com/) を使った画像検索アプリ
 
-  sprint2.4 3/20 までに
+  sprint2.4 4/15 までに
 
   1. giphy は　API 経由で画像を返してくれるサービス
   2. 猫→猫の画像が帰って来る→それを表示するサービス
 
 * ## React-router の導入
 
-  sprint3.1 3/27 までに
+  sprint3.1 4/15 までに
 
   1. ただルーティングするだけの App を作る
   2. history API
@@ -149,7 +149,7 @@
 
 * ## 開発者ツールの使い方
 
-  sprint3.2 3/27 までに
+  sprint3.2 4/15 までに
 
   1. Chrome の React 開発者ツールのインストールと説明
   2. JS のデバッグ
@@ -157,7 +157,7 @@
 
 * ## Redux, React + Redux の導入
 
-  sprint3.3 3/27 までに
+  sprint3.3 4/15 までに
 
   1. Provider, createStore, reducer, connect を先に React に組み込んでしまう
   2. Reducer の仕組み、 dispatch の仕組み
@@ -169,7 +169,7 @@
 
 * ## Giphy アプリを Redux, Redux-router, Redux-thunk, Aiox で作る
 
-  sprint3.3 3/27 までに
+  sprint3.3 4/15 までに
 
   総決算。非同期処理\(XMLHttpRequest 等\)を redux-thunk で処理するのが一番のテーマ。Material UI も使用する予定。
 
