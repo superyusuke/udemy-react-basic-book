@@ -13,3 +13,5 @@ function1();
 
 render(<ReactComponent />, document.getElementById("root"));
 ```
+
+### module.js (出力する側)
