@@ -17,8 +17,8 @@
   * [2章の復習](2nd/component-review.md)
   
 * [3章](3rd/README.md)
-  * [State とは何か](3nd/what-is-state.md)
-  * [ES2015 の class](3nd/es2015class.md)
+  * [State とは何か](3rd/what-is-state.md)
+  * [ES2015 の class](3rd/es2015class.md)
 
 
 
