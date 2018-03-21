@@ -55,4 +55,8 @@ class Human extends React.Component {
 }
 ```
 
+## state を与える
+
+```js
+```
 
