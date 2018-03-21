@@ -35,7 +35,7 @@ const ReturnReactElement = props => {
 
 // Component なので以下のようにタグを記述して使う
 // 閉じタグを忘れないように
-// <RenderElement />
+// <ReturnReactElement />
 ```
 
 ## Input を受けつける
