@@ -46,9 +46,9 @@ Component に入力される値は、`<ReturnReactElement　name="Nakanishi" mus
 
 ```js
 render(
-  <FunctionalComponent name="Nakanishi" music="Jazz" />,
+  <ReturnReactElement name="Nakanishi" music="Jazz" />,
   document.getElementById('root')
-)
+);
 ```
 
 受け取った値は、コンポーネントの引数にオブジェクトとして入ってきます。
