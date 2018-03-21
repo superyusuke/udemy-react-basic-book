@@ -1,6 +1,6 @@
 #ES2015 のクラス構文
 
-[参考コード]()
+[参考コード](https://codesandbox.io/s/rjon921l5q)
 
 React.Component を ES2015 の class 構文で書く前に、単なる JavaScript の ES2015 class 構文を復習します。
 
