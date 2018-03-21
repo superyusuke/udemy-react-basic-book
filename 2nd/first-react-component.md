@@ -1,5 +1,5 @@
 # 初めての React Component
-
+[参考コード](https://codesandbox.io/s/846w9l4vw2)
 
 ## 一般的に Component とは
 
