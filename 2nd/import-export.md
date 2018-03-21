@@ -1,7 +1,7 @@
 # import, export, js module
 
 
-
+### index.js (読み込む側)
 ```js
 import React from "react";
 import { render } from "react-dom";
