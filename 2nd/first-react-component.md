@@ -23,14 +23,15 @@ const returnReactElement = () => {
 // 関数なので以下のように実行して使う
 // returnReactElement()
 
+// React Component にするには、
 // 全く同じ内容のまま、冒頭を大文字にする
-const returnReactElement = () => {
+const ReturnReactElement = props => {
   return (
     <h2>
-      name
+      {props.name} {props.music}
     </h2>
-  )
-}
+  );
+};
 
 // Component なので以下のようにタグを記述して使う
 // <RenderElement />
