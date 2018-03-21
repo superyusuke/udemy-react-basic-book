@@ -77,6 +77,15 @@ class Human extends React.Component {
 }
 ```
 
+## setState を用いて、state を更新する
+
+- this.setState() というメソッドを用いて、state を更新する。
+- このメソッドは自分では書いていないが、React.Component を extends (継承)した際に受け継がれたもの。
+- this.setState() の引数には、state のうち、変更したいオブジェクトを指定する。(上書きされる)
+
+
+
+
 
 
 
