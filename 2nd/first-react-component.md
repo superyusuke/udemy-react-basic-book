@@ -66,16 +66,16 @@ props = {
 import React from 'react'
 import { render } from 'react-dom'
 
-const FunctionalComponent = props => {
+const ReturnReactElement = props => {
   return (
-    <div>
-      Name: {props.name}, Music: {props.music}
-    </div>
-  )
-}
+    <h2>
+      {props.name} {props.music}
+    </h2>
+  );
+};
 
 render(
-  <FunctionalComponent name="Nakanishi" music="Jazz" />,
+  <ReturnReactElement name="Nakanishi" music="Jazz" />,
   document.getElementById('root')
 )
 ```
