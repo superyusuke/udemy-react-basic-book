@@ -42,7 +42,7 @@ const ReturnReactElement = props => {
 
 ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component を作成してみましょう。
 
-Component に入力される値は、`<FunctionalComponent name="Nakanishi" music="Jazz" />` のように、attribute と同じ形で渡します。
+Component に入力される値は、`<ReturnReactElement　name="Nakanishi" music="Jazz" />` のように、attribute と同じ形で渡します。
 
 ```js
 render(
