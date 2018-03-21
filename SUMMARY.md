@@ -18,7 +18,7 @@
   
 * [3章](3rd/README.md)
   * [State とは何か](3nd/what-is-state.md)
-  * [State とは何か](3nd/es2015class.md)
+  * [ES2015 の class](3nd/es2015class.md)
 
 
 
