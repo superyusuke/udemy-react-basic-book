@@ -1,4 +1,5 @@
 # import, export, js module
+[参考コード](https://codesandbox.io/s/3837184lkm)
 
 
 ### index.js (読み込む側)
