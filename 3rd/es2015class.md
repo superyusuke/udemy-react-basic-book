@@ -67,7 +67,7 @@ class Human() {
 }
 
 const Nakanishi = new Human('Nakanishi', 30)
-console.log(Nakanishi.name + Nakanishi.age)
+console.log(Nakanishi)
 ```
 
 ## class が持つファンクション = class method を定義する
