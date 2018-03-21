@@ -16,7 +16,7 @@ React におけるコンポーネントは、基本的には React Element を�
 
 ```js
 // 単なる関数
-const renderElement = () => {
+const returnReactElement = () => {
   return (
     <div>
       Name: Music:
