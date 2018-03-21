@@ -42,11 +42,11 @@ const ReturnReactElement = props => {
 
 ただし、単に React Element を返すだけでは、広義の Component とはいえませんし、あまり便利ではありません。では Input を受け取って、それを元に Output する Component を作成してみましょう。
 
-Component に入力される値は、`<ReturnReactElement　name="Nakanishi" music="Jazz" />` のように、attribute と同じ形で渡します。
+Component に入力される値は、`<ReturnReactElement　name="nakanishi" music="jazz" />` のように、attribute と同じ形で渡します。
 
 ```js
 render(
-  <ReturnReactElement name="Nakanishi" music="Jazz" />,
+  <ReturnReactElement name="nakanishi" music="jazz" />,
   document.getElementById('root')
 );
 ```
@@ -55,8 +55,8 @@ render(
 
 ```js
 props = {
-  name: 'Nakanishi',
-  music: 'Jazz'
+  name: 'nakanishi',
+  music: 'jazz'
 };
 ```
 
@@ -75,7 +75,7 @@ const ReturnReactElement = props => {
 };
 
 render(
-  <ReturnReactElement name="Nakanishi" music="Jazz" />,
+  <ReturnReactElement name="nakanishi" music="jazz" />,
   document.getElementById('root')
 )
 ```
@@ -85,8 +85,8 @@ render(
 また、`({name, music})` として引数を受け取ると、直接、`name` と `music` にオブジェクトが展開して代入されます。
 
 ```js
-name = 'Nakanishi'
-music = 'Jazz'
+name = 'nakanishi'
+music = 'jazz'
 ```
 
 ```js
