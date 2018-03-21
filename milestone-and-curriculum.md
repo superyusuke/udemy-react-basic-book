@@ -52,7 +52,7 @@
   2. JSX とは何か 3/11 done
   3. Component とは何か 3/22 done
   4. ES2015 の基礎の確認
-     1. import/export 3/11
+     1. import/export 3/11 done
      2. arrow function 3/11 done
   5. props で動的に値を受け取る
      1. props を与える、受ける 3/11 done
