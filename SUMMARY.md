@@ -19,6 +19,11 @@
 * [3章](3rd/README.md)
   * [State とは何か](3rd/what-is-state.md)
   * [ES2015 の class](3rd/es2015class.md)
+  * [React Class Component の書き方](3rd/react-class-component.md)
+
+
+
+
 
 
 
