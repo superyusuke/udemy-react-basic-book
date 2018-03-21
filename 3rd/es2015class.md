@@ -66,7 +66,7 @@ class Human() {
   }
 }
 
-const Nakanishi = new Human('Nakanishi', 33)
+const Nakanishi = new Human('Nakanishi', 30)
 console.log(Nakanishi.name + Nakanishi.age)
 ```
 
