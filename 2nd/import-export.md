@@ -2,7 +2,6 @@
 
 [参考コード](https://codesandbox.io/s/3837184lkm)
 
-
 ### index.js (読み込む側)
 ```js
 import React from "react";
@@ -39,4 +38,3 @@ export const ReactComponent = () => <h2>name</h2>;
 
 ## module
 JavaScript におけるモジュールとは、別ファイルに切り分けられた変数、関数、クラス等のこと。これを用いるために import / export を使う。
-
