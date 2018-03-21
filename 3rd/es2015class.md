@@ -24,12 +24,12 @@ class Human {
 
 // class からインスタンスを作成するために new 演算子を使う
 // その際に引数も与える
-const Nakanishi = new Human("Nakanishi", 33);
+const Nakanishi = new Human("Nakanishi", 30);
 
 // console.log(Nakanishi.name);
 // console.log(Nakanishi.age);
 
-const Tanaka = new Human("Tanaka", 43);
+const Tanaka = new Human("Tanaka", 40);
 
 // console.log(Tanaka.name);
 // console.log(Tanaka.age);
