@@ -90,7 +90,7 @@ music = 'Jazz'
 ```
 
 ```js
-const FunctionalComponent2 = ({ name, music }) => {
+const ReturnReactElement = ({ name, music }) => {
   return (
     <div>
       Name: {name}, Music: {music}
