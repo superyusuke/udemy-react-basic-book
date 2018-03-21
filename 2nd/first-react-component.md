@@ -28,7 +28,7 @@ const renderElement = () => {
 // renderElement()
 
 // 全く同じ内容のまま、冒頭を大文字にする
-const RenderElement = () => {
+const returnReactElement = () => {
   return (
     <h2>
       name
