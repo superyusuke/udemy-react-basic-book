@@ -35,15 +35,6 @@ class 宣言から始まり constructor を持つ点は同じだが、加えて 
 class Human extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "Nakanishi" };
-  }
-
-  render() {
-    return (
-      <h2>
-        {this.state.name} {this.props.age}
-      </h2>
-    );
   }
 }
 ```
