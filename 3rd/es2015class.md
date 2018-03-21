@@ -84,7 +84,7 @@ class Human {
   }
 }
 
-const Nakanishi = new Human('Nakanishi', 33)
+const Nakanishi = new Human("Nakanishi", 30);
 // クラスメソッドの呼び出し
-Nakanishi.callMyProfile()
+Nakanishi.callMyProfile();
 ```
