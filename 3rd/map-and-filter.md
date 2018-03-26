@@ -9,7 +9,7 @@ const newArray1 = array1.map((output, index) => {
   return `${index}番目は${output}です。`;
 });
 
-//console.log(newArray1);
+console.log(newArray1);
 
 const array2 = ["tanaka", "nakanishi", "sasaki", "koyama", "oda"];
 
