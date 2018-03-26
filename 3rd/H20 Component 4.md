@@ -28,10 +28,12 @@ class H20 extends React.Component {
   }
 
   render() {
+    const { temp } = this.state;
+
     return (
-      <div className={this.H20State(this.state.temp)}>
+      <div className={this.H20State(temp)}>
         <h2>
-          phase: {this.H20State(this.state.temp)},{this.state.temp} 度
+          phase: {this.H20State(temp)}, {temp} 度
         </h2>
         <button onClick={this.onPlusClick}>+</button>
         <button onClick={this.onPlus10Click}>+10</button>
@@ -42,38 +44,26 @@ class H20 extends React.Component {
   }
 
   onPlusClick = () => {
-    this.setState({ temp: this.state.temp + 1 });
+    const { temp } = this.state;
+    this.setState({ temp: temp + 1 });
   };
 
   onPlus10Click = () => {
-    this.setState({ temp: this.state.temp + 10 });
+    const { temp } = this.state;
+    this.setState({ temp: temp + 10 });
   };
 
   onMinusClick = () => {
-    this.setState({ temp: this.state.temp - 1 });
+    const { temp } = this.state;
+    this.setState({ temp: temp - 1 });
   };
 
   onMinus10Click = () => {
-    this.setState({ temp: this.state.temp - 10 });
+    const { temp } = this.state;
+    this.setState({ temp: temp - 10 });
   };
 }
 
 render(<H20 />, document.getElementById("root"));
-
-```
-
-App.css
-```css
-.ice {
-  background-color: blue;
-}
-
-.water {
-  background-color: blueviolet;
-}
-
-.steam {
-  background-color: red;
-}
 
 ```
