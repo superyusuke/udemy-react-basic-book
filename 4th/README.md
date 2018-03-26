@@ -113,6 +113,8 @@ render() {
   }
 ```
 
+AddTodo.js 内で受け取ったメソッドを実行する
+
 ```js
 handleSubmit = event => {
     event.preventDefault();
