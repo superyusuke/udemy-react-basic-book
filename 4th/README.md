@@ -97,7 +97,7 @@ addTodo = title => {
 
 ```
 
-同じく TodoApp.js 内で addTodo メソッドを、AddTodo コンンポーネントに渡す
+同じく TodoApp.js 内で addTodo メソッドを、AddTodo コンポーネントに渡す
 
 ```js
 render() {
