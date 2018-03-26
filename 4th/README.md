@@ -81,6 +81,17 @@ export class AddTodo extends React.Component {
 
 https://codesandbox.io/s/8l8jvmy36l
 
+TodoApp.js 内部
+
+```js
+addTodo = title => {
+    this.setState({
+      todos: [...this.state.todos, { id: this.state.nextId + 1, title: title }],
+      nextId: this.state.nextId + 1
+    });
+  };
+```
+
 
 
 
