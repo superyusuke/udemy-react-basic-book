@@ -81,7 +81,7 @@ export class AddTodo extends React.Component {
 
 https://codesandbox.io/s/8l8jvmy36l
 
-TodoApp.js 内部
+TodoApp.js 内の state を変更するメソッド
 
 ```js
 addTodo = title => {
