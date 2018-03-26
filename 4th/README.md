@@ -24,5 +24,13 @@ state を変更するための「addTodo や deleteTodo」といったメソッ�
 
 https://codesandbox.io/s/m5jzz7nv0p
 
+## 手順2
+
+- TodoApp.js に state を持たせる
+- this.state.todos を List に渡す
+- List が、受け取った props を元に ul,li を返す
+
+https://codesandbox.io/s/q816304yn9
+
 
 
