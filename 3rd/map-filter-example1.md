@@ -17,6 +17,7 @@ const todos = [
 
 const deleteTargetId = 3;
 
+// filter を使って
 // deleteTargetId 以外のものだけを採用する
 
 const deletedArray = todos.filter(todo => todo.id !== deleteTargetId);
@@ -45,6 +46,8 @@ const deleteTargetId = 3;
 const deletedArray = todos.filter(todo => todo.id !== deleteTargetId);
 
 console.log(deletedArray);
+
+// 新しい React Component を map を使って区政する
 
 const Todos = ({ todos }) => {
   const list = todos.map(todo => {
