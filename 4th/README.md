@@ -9,7 +9,7 @@
     - AddTodo.js (state にtodo を追加するためのコンポーネント)
     - List.js (state を元に List を作成するコンポーネント)
     
-## state の構造と変更
+## state の構造
 
 - todos: todo リストの内容のための state
 - nextId: 次に追加するリストの内容に付与する ID のための state
