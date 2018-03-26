@@ -97,6 +97,20 @@ addTodo = title => {
 
 ```
 
+```js
+render() {
+    // state を変更するための addTodo メソッドを
+    // AddTodo コンポーネントに渡す
+    return (
+      <div>
+        <h2>TodoApp</h2>
+        <AddTodo addTodo={this.addTodo} />
+        <List todos={this.state.todos} />
+      </div>
+    );
+  }
+```
+
 
 
 
