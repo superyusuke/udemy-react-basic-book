@@ -60,3 +60,19 @@ class H20 extends React.Component {
 render(<H20 />, document.getElementById("root"));
 
 ```
+
+App.css
+```css
+.ice {
+  background-color: blue;
+}
+
+.water {
+  background-color: blueviolet;
+}
+
+.steam {
+  background-color: red;
+}
+
+```
