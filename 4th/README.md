@@ -113,6 +113,15 @@ render() {
   }
 ```
 
+```js
+handleSubmit = event => {
+    event.preventDefault();
+    // 親コンポーネントから受け取った state を変更するメソッドを実行する
+    this.props.addTodo(this.state.title);
+    this.setState({ title: "" });
+  };
+```
+
 
 
 
