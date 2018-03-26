@@ -32,7 +32,7 @@ https://codesandbox.io/s/q816304yn9
 - this.state.todos を List に渡す
 - List が、受け取った props を元に ul,li を返す
 
-## 手順3: 
+## 手順3: AddTodo コンポーネントを作り込む
 
 
 
