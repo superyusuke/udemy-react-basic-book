@@ -26,7 +26,7 @@
   * [H20 Component 3](3rd/H20 Component 3.md)
   * [H20 Component 4](3rd/H20 Component 4.md)
   * [map と filter](3rd/map-and-filter.md)
-  * [map と filter の実践](3rd/map-and-example.md)
+  * [map と filter の実践](3rd/map-filter-example.md)
 
 
 
