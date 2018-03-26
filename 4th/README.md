@@ -11,5 +11,6 @@
     
 ## state の構造と変更
 
-- 
+- todos: todo リストの内容のための state
+- nextId: 次に追加するリストの内容に付与する ID のための state
     
