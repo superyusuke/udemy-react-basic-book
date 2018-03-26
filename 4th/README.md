@@ -4,6 +4,6 @@
 
 このアプリケーションは、以下のようにコンポーネントを組み合わせている。
 
-- TodoApp.js
-    - AddTodo.js
-    - List.js
+- TodoApp.js (アプリケーション全体のためのコンポーネント)
+    - AddTodo.js (state にtodo を追加するためのコンポーネント)
+    - List.js ()
