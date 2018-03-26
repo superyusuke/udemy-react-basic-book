@@ -6,4 +6,4 @@
 
 - TodoApp.js (アプリケーション全体のためのコンポーネント)
     - AddTodo.js (state にtodo を追加するためのコンポーネント)
-    - List.js ()
+    - List.js (state を元に List を作成するコンポー年と)
