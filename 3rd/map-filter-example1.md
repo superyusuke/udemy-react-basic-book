@@ -61,6 +61,8 @@ const Todos = ({ todos }) => {
     );
   });
 
+  // 先ほど作った list を使用する
+  // この部分が実際にレンダリングされる内容
   return <ul>{list}</ul>;
 };
 
