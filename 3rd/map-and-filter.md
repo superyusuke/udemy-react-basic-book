@@ -24,5 +24,6 @@ const newArray2 = array2.map((output, index) => {
 
 console.log(newArray2);
 
-
 ```
+
+## filter
