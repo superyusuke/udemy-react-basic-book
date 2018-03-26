@@ -77,6 +77,10 @@ export class AddTodo extends React.Component {
 
 ```
 
+## 手順4: state を変更するメソッドを作成し、子コンポーネントに渡す
+
+https://codesandbox.io/s/8l8jvmy36l
+
 
 
 
