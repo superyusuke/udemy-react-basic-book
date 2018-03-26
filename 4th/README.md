@@ -119,6 +119,7 @@ AddTodo.js 内で受け取ったメソッドを実行する
 handleSubmit = event => {
     event.preventDefault();
     // 親コンポーネントから受け取った state を変更するメソッドを実行する
+    // 受け取ったものなので props の中にある
     this.props.addTodo(this.state.title);
     this.setState({ title: "" });
   };
