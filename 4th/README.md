@@ -99,8 +99,6 @@ addTodo = title => {
 
 同じく TodoApp.js 内で addTodo メソッドを、AddTodo コンンポーネントに渡す
 
-
-
 ```js
 render() {
     // state を変更するための addTodo メソッドを
