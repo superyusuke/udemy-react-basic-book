@@ -90,6 +90,8 @@ addTodo = title => {
       nextId: this.state.nextId + 1
     });
   };
+  
+todos: [...今までの state の配列, {新しく追加したいオブジェクト}]
 ```
 
 
