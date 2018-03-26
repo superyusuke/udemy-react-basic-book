@@ -34,6 +34,8 @@ https://codesandbox.io/s/q816304yn9
 
 ## 手順3: AddTodo コンポーネントを作り込む
 
+https://codesandbox.io/s/xvpk08v9pw
+
 ```js
 import React from "react";
 
