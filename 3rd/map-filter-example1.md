@@ -17,6 +17,8 @@ const todos = [
 
 const deleteTargetId = 3;
 
+// deleteTargetId 以外のものだけを採用する
+
 const deletedArray = todos.filter(todo => todo.id !== deleteTargetId);
 
 console.log(deletedArray);
