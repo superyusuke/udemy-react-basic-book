@@ -19,5 +19,10 @@
 state を変更するための「addTodo や deleteTodo」といったメソッドは、一番親になるコンポーネントである TodoApp にもたせて、子コンポーネントに渡していく。これが React 設計の基本。
      
 ## 手順1
-単純にコンポーネントを配置する
+
+単純にコンポーネントを配置します。
+
+https://codesandbox.io/s/m5jzz7nv0p
+
+
 
