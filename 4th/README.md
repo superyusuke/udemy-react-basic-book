@@ -127,6 +127,8 @@ handleSubmit = event => {
 
 ## 手順5: todo を削除するメソッドを作成し、子コンポーネントに渡す
 
+https://codesandbox.io/s/jlwk292mw
+
 
 
 
