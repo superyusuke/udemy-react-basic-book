@@ -143,6 +143,19 @@ TodoApp.js
   };
 ```
 
+```js
+render() {
+    // deleteTodo を子コンポーネントに渡す
+    return (
+      <div>
+        <h2>TodoApp</h2>
+        <AddTodo addTodo={this.addTodo} />
+        <List deleteTodo={this.deleteTodo} todos={this.state.todos} />
+      </div>
+    );
+  }
+```
+
 
 
 
