@@ -178,6 +178,8 @@ List.js
     });
 ```
 ## 手順6: リファクタリング
+
+
 ```js
 const list = todos.map(todo => {
       return (
