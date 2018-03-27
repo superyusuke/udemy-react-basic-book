@@ -131,6 +131,7 @@ https://codesandbox.io/s/jlwk292mw
 
 ```js
 // 削除するメソッドの追加
+// filter を使って、id が一致するものを取り除く
   deleteTodo = id => {
     this.setState({
       todos: this.state.todos.filter(todo => {
