@@ -8,4 +8,5 @@
 
 ## いつどのように使われているか
 
-- ブラウザのアドレスバーに入力 -> HTTP Request -> Server -> Response
+- ブラウザのアドレスバーに入力 -> HTTP Request -> Server 
+- a タグのリンクをクリックする -> HTTP Request -> Server
