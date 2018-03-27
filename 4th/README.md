@@ -204,6 +204,8 @@ const list = todos.map(todo => {
 
 ```js
 
+this.state.todos のように書くと長くなるので、以下のようにすると良い。
+
 
 const { deleteTodo, todos } = this.props;
 const { todos, nextId } = this.state;
