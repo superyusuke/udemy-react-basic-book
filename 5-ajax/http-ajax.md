@@ -1,4 +1,4 @@
-# HTTP プロトコルと Ajax
+# HTTP プロトコルと AJAX
 
 ## HTTP プロトコルとは
 
