@@ -2,7 +2,7 @@
 
 ![](/assets/todoApp.001.png)
 
-完成形
+## 完成形
 https://codesandbox.io/s/k28jmw8lmr
 
 ## コンポーンントの構造
