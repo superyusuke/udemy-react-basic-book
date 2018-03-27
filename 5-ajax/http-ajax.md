@@ -34,10 +34,10 @@ AJAX 二つの技術の組み合わせのことです。簡潔に言えば、「
 ```js
 const url = "https://developer.mozilla.org/en-US/docs/Web/HTML";
 
-    axios.get(url).then(res => {
-      console.log(res.data);
-      document.body.innerHTML = res.data;
-    });
+axios.get(url).then(res => {
+  console.log(res.data);
+  document.body.innerHTML = res.data;
+});
 ```
 
 
