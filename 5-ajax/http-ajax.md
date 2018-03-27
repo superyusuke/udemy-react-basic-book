@@ -29,7 +29,16 @@ AJAX 二つの技術の組み合わせのことです。簡潔に言えば、「
 - 画面が遷移しない
 - それに伴ってURLも変わらない
 
+## Axios というライブラリを使って Ajax 通信をする
 
+```js
+const url = "https://developer.mozilla.org/en-US/docs/Web/HTML";
+
+    axios.get(url).then(res => {
+      console.log(res.data);
+      document.body.innerHTML = res.data;
+    });
+```
 
 
 
