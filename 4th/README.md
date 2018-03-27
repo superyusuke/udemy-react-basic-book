@@ -177,7 +177,23 @@ List.js
       );
     });
 ```
-
+## 手順6: リファクタリング
+```js
+const list = todos.map(todo => {
+      return (
+        <li key={todo.id}>
+          #{todo.id} {todo.title}
+          <button
+            onClick={() => {
+              deleteTodo(todo.id);
+            }}
+          >
+            delete
+          </button>
+        </li>
+      );
+    });
+```
 
 
 
