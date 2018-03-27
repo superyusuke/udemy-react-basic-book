@@ -160,7 +160,7 @@ List.js
 
 ```js
 // button を追加し、
-  // click 時に 受けとった deleteTodo を実行する
+// click 時に 受けとった deleteTodo を実行する
   render() {
     const list = this.props.todos.map(todo => {
       return (
