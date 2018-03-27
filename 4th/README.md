@@ -202,5 +202,9 @@ const list = todos.map(todo => {
     });
 ```
 
+```js
 
 
+const { deleteTodo, todos } = this.props;
+const { todos, nextId } = this.state;
+```
