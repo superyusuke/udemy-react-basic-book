@@ -129,7 +129,16 @@ handleSubmit = event => {
 
 https://codesandbox.io/s/jlwk292mw
 
-
+```js
+// 削除するメソッドの追加
+  deleteTodo = id => {
+    this.setState({
+      todos: this.state.todos.filter(todo => {
+        return todo.id !== id;
+      })
+    });
+  };
+```
 
 
 
