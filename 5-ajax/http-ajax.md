@@ -19,7 +19,7 @@
 
 AJAX 二つの技術の組み合わせのことです。簡潔に言えば、「JavaScript でサーバーと非同期な通信をおこない、それによって得たデータを JavaScript で DOM に反映させることで、ユーザーに表示する手法」です。
 
-- ブラウザに組み込まれた XMLHttpRequest object(XHR) を用いたサーバーとの非同期な HTTP 通信
+- ブラウザに組み込まれた XMLHttpRequest object(XHRO) を用いたサーバーとの非同期な HTTP 通信
 - 受け取ったデータを用いて JavaScript で HTML DOM を変更する 
 
 
