@@ -6,6 +6,6 @@
 
 ![](/assets/http-ajax.001.png)
 
-
 ## いつどのように使われているか
 
+- ブラウザのアドレスバーに入力 -> HTTP Request -> Server -> Response
