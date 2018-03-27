@@ -129,6 +129,8 @@ handleSubmit = event => {
 
 https://codesandbox.io/s/jlwk292mw
 
+TodoApp.js
+
 ```js
 // 削除するメソッドの追加
 // filter を使って、id が一致するものを取り除く
