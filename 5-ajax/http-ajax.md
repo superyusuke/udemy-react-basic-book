@@ -31,6 +31,10 @@ AJAX 二つの技術の組み合わせのことです。簡潔に言えば、「
 
 ## Axios というライブラリを使って AJAX 通信をする
 
+https://codesandbox.io/s/pp64z70v9m
+
+
+
 ```js
 const url = "https://developer.mozilla.org/en-US/docs/Web/HTML";
 
