@@ -8,3 +8,10 @@ setTimeout(() => {
 }, 1000);
 ```
 
+```js
+import $ from "jquery";
+
+$(".button").on("click", () => {
+  alert("click");
+});
+```
