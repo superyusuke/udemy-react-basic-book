@@ -5,7 +5,6 @@ JavaScript 一度に一つのことを処理するシングルスレッドとい
 ```js
 setTimeout(() => {
   console.log("done", getSeconds());
-  resolve(num);
 }, 1000);
 ```
 
