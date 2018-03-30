@@ -46,3 +46,19 @@ axios.get(url).then(res => {
 
 こんなふうに予約が連鎖してくると、コードはこうなります。
 
+```js
+setTimeout(() => {
+  console.log("done1");
+  setTimeout(() => {
+    console.log("done2");
+    setTimeout(() => {
+      console.log("done3");
+      setTimeout(() => {
+        console.log("done4");
+      }, 1000);
+    }, 1000);
+  }, 1000);
+}, 1000);
+
+```
+
