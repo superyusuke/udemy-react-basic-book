@@ -70,4 +70,10 @@ setTimeout(() => {
 
 その解決方法の一つが「Promise」という仕組みを使うことです。
 
+https://codesandbox.io/s/yw43kj4rv1
+
+詳しくは、Promise の資料を読んで欲しいのですが、手順をまとめると以下のようになります。
+
+.1 関数を作る。この関数は return new Promise で Promise インスタンスを作ってリターンする
+
 
