@@ -1,9 +1,9 @@
 # JSON を取得し、その内容をレンダリングする React App の作成
 
-- React App のボタンを押したら、HTTP リクエストをして、JSON を取得する
-- 取得先は myjson.com (http://myjson.com/)
-- myjson.com に、返す JSON を自分であらかじめ設定しておく
-- 帰ってきたデータを state に保持させ、state を元にリストをレンダリングする
+* React App のボタンを押したら、HTTP リクエストをして、JSON を取得する
+* 取得先は myjson.com \([http://myjson.com/](http://myjson.com/)\)
+* myjson.com に、返す JSON を自分であらかじめ設定しておく
+* 帰ってきたデータを state に保持させ、state を元にリストをレンダリングする
 
 ## JSON とは
 
@@ -28,10 +28,9 @@ JavaScript のオブジェクトとは少し形式が違うが、基本的に Ja
     }
   ]
 }
-
 ```
 
-``` js
+```js
 // 通常の JavaScript オブジェクトの書き方
 
 export const data = {
@@ -50,15 +49,14 @@ export const data = {
     }
   ]
 };
-
 ```
 
 ### 特徴
 
-- 必ず「""」ダブルクオーテーションを使うこと。「''」ではだめ。
-- key も value も「""」でくくって、文字列にすること。
-- コメントは使えない。
-- トレイリングコンマはあってはダメ。 
+* 必ず「""」ダブルクオーテーションを使うこと。「''」ではだめ。
+* key も value も「""」でくくって、文字列にすること。
+* コメントは使えない。
+* トレイリングコンマはあってはダメ。 
 
 #### ダメな例
 
@@ -80,18 +78,27 @@ export const data = {
     }
   ]
 }
-
 ```
 
 JSON フォーマッター等で確認しましょう。
 
-https://jsonformatter.curiousconcept.com/
+[https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 
 ## MyJson というサービスで JSON を返すだけの API を作る
 
+myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す JSON の内容を自分で決めることができる
+
+
+
+
+
+
+
 ## Axios で MyJson にデータを取りに行く
 
-- npm を追加する
+* npm を追加する
 
 ## データを元にレンダリングする React App を作る
+
+
 
