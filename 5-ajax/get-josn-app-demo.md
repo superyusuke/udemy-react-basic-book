@@ -109,7 +109,6 @@ myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す
 
 ## Axios で MyJson にデータを取りに行く
 
-https://codesandbox.io/s/jvyrz73y9y
 
 * Dependencies => Add Dependencies => Axios を追加する
 
@@ -125,6 +124,8 @@ axios.get(url).then(res => {
 
 
 ## データを元にレンダリングする React App を作る
+
+https://codesandbox.io/s/jvyrz73y9y
 
 
 
