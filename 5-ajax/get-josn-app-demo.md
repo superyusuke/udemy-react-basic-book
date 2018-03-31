@@ -31,6 +31,28 @@ JavaScript のオブジェクトとは少し形式が違うが、基本的に Ja
 
 ```
 
+``` js
+// 通常の JavaScript オブジェクトの書き方
+
+export const data = {
+  member: [
+    {
+      name: "yusuke",
+      age: 30
+    },
+    {
+      name: "tanaka",
+      age: 40
+    },
+    {
+      name: "sasaki",
+      age: 50
+    }
+  ]
+};
+
+```
+
 ### 特徴
 
 - 必ず「""」ダブルクオーテーションを使うこと。「''」ではだめ。
