@@ -4,3 +4,7 @@
 - 取得先は myjson.com (http://myjson.com/)
 - myjson.com に、返す JSON を自分であらかじめ設定しておく
 - 帰ってきたデータを state に保持させ、state を元にリストをレンダリングする
+
+## JSON とは
+
+JSON = JavaScript Object Notation
