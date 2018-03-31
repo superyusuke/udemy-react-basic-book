@@ -86,3 +86,5 @@ export const data = {
 JSON フォーマッターで確認しましょう。
 
 https://jsonformatter.curiousconcept.com/
+
+## MyJson というサービスで JSON を返すだけの API を作る
