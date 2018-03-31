@@ -181,9 +181,9 @@ Search.js
 
 ```js
 handleSubmit = event => {
-    event.preventDefault();
-    // 受け取ったメソッドを実行し、app の state を変更している
-    this.props.search(this.state.title);
-    this.setState({ title: "" });
-  };
+  event.preventDefault();
+  // 受け取ったメソッドを実行し、app の state を変更している
+  this.props.search(this.state.title);
+  this.setState({ title: "" });
+};
 ```
