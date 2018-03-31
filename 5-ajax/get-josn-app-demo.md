@@ -82,3 +82,8 @@ export const data = {
 }
 
 ```
+
+JSON フォーマッターで直してしまいましょう
+。
+
+https://jsonformatter.curiousconcept.com/
