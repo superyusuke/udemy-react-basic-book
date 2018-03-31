@@ -88,11 +88,25 @@ JSON フォーマッター等で確認しましょう。
 
 myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す JSON の内容を自分で決めることができる
 
+```json
+{
+  "member": [
+    {
+      "name": "nakanishi",
+      "age": 30
+    },
+    {
+      "name": "tanaka",
+      "age": 40
+    },
+    {
+      "name": "suzuki",
+      "age": 50
+    }
+  ]
+}
 
-
-
-
-
+```
 
 ## Axios で MyJson にデータを取りに行く
 
