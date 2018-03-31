@@ -237,6 +237,11 @@ body {
 
 ```
 
+### クラスネームを付与する
+
+index.js
+
+
 ```js
 renderImageList(list) {
     const imageList = list.map(url => {
