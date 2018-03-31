@@ -105,7 +105,6 @@ myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す
     }
   ]
 }
-
 ```
 
 ## Axios で MyJson にデータを取りに行く
