@@ -111,6 +111,17 @@ myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す
 
 * Dependencies => Add Dependencies => Axios を追加する
 
+```js
+import axios from "axios";
+
+const url = "https://api.myjson.com/bins/159wqn";
+
+axios.get(url).then(res => {
+  console.log(res.data);
+});
+```
+
+
 ## データを元にレンダリングする React App を作る
 
 
