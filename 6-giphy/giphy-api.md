@@ -99,3 +99,18 @@ render(<App />, document.getElementById("root"));
 
 https://codesandbox.io/s/7mpkvy49w1
 
+```js
+renderImageList(list) {
+    const imageList = list.map(url => {
+      return (
+        <li>
+          <img src={url} />
+        </li>
+      );
+    });
+
+    return <ul>{imageList}</ul>;
+  }
+
+```
+
