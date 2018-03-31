@@ -44,3 +44,5 @@ axios.get(url).then(res => {
   document.body.appendChild(img);
 });
 ```
+
+## React App に組み込む 1
