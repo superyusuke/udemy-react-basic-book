@@ -109,6 +109,7 @@ myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す
 
 ## Axios で MyJson にデータを取りに行く
 
+https://codesandbox.io/s/0xlkn7w38n
 
 * Dependencies => Add Dependencies => Axios を追加する
 
