@@ -83,6 +83,6 @@ export const data = {
 
 ```
 
-JSON フォーマッターで直してしまいましょう。
+JSON フォーマッターで確認しましょう。
 
 https://jsonformatter.curiousconcept.com/
