@@ -101,17 +101,17 @@ https://codesandbox.io/s/7mpkvy49w1
 
 ```js
 renderImageList(list) {
-    const imageList = list.map(url => {
-      return (
-        <li>
-          <img src={url} />
-        </li>
-      );
-    });
+  const imageList = list.map(url => {
+    return (
+      <li>
+        <img src={url} />
+      </li>
+    );
+  });
 
-    return <ul>{imageList}</ul>;
-  }
-  
+  return <ul>{imageList}</ul>;
+}
+
 render() {
   console.log(this.state.gifUrlList);
   return <div>{this.renderImageList(this.state.gifUrlList)}</div>;
