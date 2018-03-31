@@ -111,6 +111,5 @@ renderImageList(list) {
 
     return <ul>{imageList}</ul>;
   }
-
 ```
 
