@@ -111,5 +111,10 @@ renderImageList(list) {
 
     return <ul>{imageList}</ul>;
   }
+  
+  render() {
+    console.log(this.state.gifUrlList);
+    return <div>{this.renderImageList(this.state.gifUrlList)}</div>;
+  }
 ```
 
