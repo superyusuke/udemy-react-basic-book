@@ -159,3 +159,17 @@ export class AddTodo extends React.Component {
 }
 ```
 
+### Search コンポーネントにメソッドを渡す
+
+```js
+render() {
+    // Search コンポーネントにメソッドを渡す
+    return (
+      <div>
+        <Search search={this.giphyApi} />
+        {this.renderImageList(this.state.gifUrlList)}
+      </div>
+    );
+  }
+```
+
