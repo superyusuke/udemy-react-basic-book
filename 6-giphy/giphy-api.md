@@ -207,3 +207,8 @@ handleSubmit = event => {
     });
   };
 ```
+
+## CSS でスタイリング
+
+https://codesandbox.io/s/8vxy99n28
+
