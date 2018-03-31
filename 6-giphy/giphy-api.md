@@ -92,7 +92,3 @@ class App extends React.Component {
 render(<App />, document.getElementById("root"));
 
 ```
-
-
-
-## React App に組み込む 1
