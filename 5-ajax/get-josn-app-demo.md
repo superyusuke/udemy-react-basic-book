@@ -65,14 +65,14 @@ export const data = {
 ```json
 {
   // コメントは使えない
-  "member": [
+  member: [ // key を文字列ではないものにはできない
     {
       "name": "yusuke",
-      "age": 30
+      "age": 30, // トレイリングコンマはダメ
     },
     {
-      "name": "tanaka",
-      "age": 40
+      'name': 'tanaka', // シングルクオーテーションはダメ
+      'age': 40
     },
     {
       "name": "sasaki",
