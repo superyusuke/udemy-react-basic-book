@@ -63,4 +63,22 @@ export const data = {
 #### ダメな例
 
 ```json
+{
+  // コメントは使えない
+  "member": [
+    {
+      "name": "yusuke",
+      "age": 30
+    },
+    {
+      "name": "tanaka",
+      "age": 40
+    },
+    {
+      "name": "sasaki",
+      "age": 50
+    }
+  ]
+}
+
 ```
