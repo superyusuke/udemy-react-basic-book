@@ -96,3 +96,6 @@ render(<App />, document.getElementById("root"));
 ```
 
 ## img 要素をレンダリング
+
+https://codesandbox.io/s/7mpkvy49w1
+
