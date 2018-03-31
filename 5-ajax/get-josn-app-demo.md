@@ -91,7 +91,7 @@ https://jsonformatter.curiousconcept.com/
 
 ## Axios で MyJson にデータを取りに行く
 
-
+- npm を追加する
 
 ## データを元にレンダリングする React App を作る
 
