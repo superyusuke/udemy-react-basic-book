@@ -22,6 +22,8 @@ const url = `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}&lim
 
 ### axios でリクエストをし、得た情報を DOM に反映させる
 
+https://codesandbox.io/s/ylyn217wv
+
 ```js
 import axios from "axios";
 
