@@ -32,6 +32,7 @@
 * [5章](5th/README.md)
   * [HTTP プロトコルと AJAX](5-ajax/http-ajax.md)
   * [非同期処理と Promise](5-ajax/async.md)
+  * [非同期処理と Promise](5-ajax/get-josn-app-demo.md)
 
 
 
