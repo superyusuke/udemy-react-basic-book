@@ -96,8 +96,9 @@
   1. ### XMLHttpRequest とは done3/30
   2. ### promise, axios, ajax done 3/30
   3. ### API とは
-  4. ### Connpass API の使い方
-  5. ### 取得したデータを展開する
+
+  1. ### myjson の使い方
+  2. ### 取得したデータを展開する
 
 * ## Material UI の使用
 
