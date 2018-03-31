@@ -123,6 +123,8 @@ render() {
 
 ## 検索窓を作る
 
+https://codesandbox.io/s/n0ppvpzqm4
+
 ### todoApp で作ったコンポーネントを活用する
 
 ```js
