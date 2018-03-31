@@ -47,6 +47,8 @@ axios.get(url).then(res => {
 
 ## React App に組み込む
 
+https://codesandbox.io/s/x3o73pzz4q
+
 ```js
 import React from "react";
 import { render } from "react-dom";
