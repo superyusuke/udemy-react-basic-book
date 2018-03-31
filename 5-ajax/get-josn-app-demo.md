@@ -8,3 +8,5 @@
 ## JSON とは
 
 JSON = JavaScript Object Notation
+
+JavaScript のオブジェクトとは少し形式が違うが、基本的に JavaScript のオブジェクトを定義するための形式です。
