@@ -100,6 +100,8 @@ render(<App />, document.getElementById("root"));
 https://codesandbox.io/s/7mpkvy49w1
 
 ```js
+
+// img 要素のリストを作るメソッド
 renderImageList(list) {
   const imageList = list.map(url => {
     return (
@@ -112,6 +114,7 @@ renderImageList(list) {
   return <ul>{imageList}</ul>;
 }
 
+// 上記メソッドをレンダー内で使用する
 render() {
   console.log(this.state.gifUrlList);
   return <div>{this.renderImageList(this.state.gifUrlList)}</div>;
