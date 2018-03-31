@@ -161,6 +161,8 @@ export class AddTodo extends React.Component {
 
 ### Search コンポーネントにメソッドを渡す
 
+App.js
+
 ```js
 render() {
     // Search コンポーネントにメソッドを渡す
@@ -172,4 +174,6 @@ render() {
     );
   }
 ```
+
+### 
 
