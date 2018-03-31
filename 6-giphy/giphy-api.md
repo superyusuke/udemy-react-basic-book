@@ -9,9 +9,9 @@ https://developers.giphy.com/
 
 ## Giphy API をたたく
 
-```js
-import axios from "axios";
+### 問い合わせ先の URL
 
+```js
 const search = "cat";
 const key = "V6AU97qCSCYVmbIC5UDppEiVM1xnuO9E";
 const limit = 3;
@@ -19,6 +19,8 @@ const limit = 3;
 const url = `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}&limit=${limit}`;
 
 ```
+
+### axios でリクエストをし、得た情報を DOM に反映させる
 
 ```js
 import axios from "axios";
