@@ -236,3 +236,17 @@ body {
 }
 
 ```
+
+```js
+renderImageList(list) {
+    const imageList = list.map(url => {
+      return (
+        <li className="item">
+          <img className="image" src={url} />
+        </li>
+      );
+    });
+
+    return <ul className="list">{imageList}</ul>;
+  }
+```
