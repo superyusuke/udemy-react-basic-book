@@ -31,6 +31,7 @@
   * [TodoApp の作成](4th/todoApp.md)
 * [5章](5th/README.md)
   * [HTTP プロトコルと AJAX](5-ajax/http-ajax.md)
+  * [非同期処理と Promise](5-ajax/async.md)
 
 
 
