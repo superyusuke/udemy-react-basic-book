@@ -10,3 +10,24 @@
 JSON = JavaScript Object Notation
 
 JavaScript のオブジェクトとは少し形式が違うが、基本的に JavaScript のオブジェクトを定義するための形式です。
+
+```json
+{
+  "member": [
+    {
+      "name": "yusuke",
+      "age": 30
+    },
+    {
+      "name": "tanaka",
+      "age": 40
+    },
+    {
+      "name": "sasaki",
+      "age": 50
+    }
+  ]
+}
+
+
+```
