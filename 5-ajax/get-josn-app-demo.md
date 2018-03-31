@@ -89,3 +89,5 @@ https://jsonformatter.curiousconcept.com/
 
 ## MyJson というサービスで JSON を返すだけの API を作る
 
+## Axios で MyJson にデータを取りに行く
+
