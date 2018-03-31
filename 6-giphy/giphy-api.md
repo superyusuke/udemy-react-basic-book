@@ -94,3 +94,5 @@ class App extends React.Component {
 render(<App />, document.getElementById("root"));
 
 ```
+
+## img 要素をレンダリング
