@@ -212,3 +212,27 @@ handleSubmit = event => {
 
 https://codesandbox.io/s/8vxy99n28
 
+App.css
+
+```css
+body {
+  background: wheat;
+}
+
+.list {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  width: 10%;
+}
+
+.image {
+  width: 100%;
+}
+
+```
