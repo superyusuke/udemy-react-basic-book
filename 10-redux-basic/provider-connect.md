@@ -2,3 +2,6 @@
 
 ![](/assets/redux_provide-connect.png)
 
+## Provider
+
+https://codesandbox.io/s/6xoq10ov73
