@@ -4,7 +4,6 @@
 
 https://codesandbox.io/s/p5o5wjx4vq
 
-
 store を作っていきます。
 
 ![](/assets/redux_createStore.png)
