@@ -6,6 +6,9 @@
 
 https://codesandbox.io/s/6xoq10ov73
 
+
+index.js
+
 ```js
 import React from "react";
 import { render } from "react-dom";
