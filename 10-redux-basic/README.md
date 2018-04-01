@@ -55,7 +55,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Component);
 
 ```js
 store.dispatch({
-    type: "DO_SOMETHING",
-    payload: "something"
-  });
+  type: "DO_SOMETHING",
+  payload: "something"
+});
 ````
