@@ -13,3 +13,17 @@ render(
 );
 
 ```
+
+```js
+const reducer = (state = 0, action) => {
+  switch (action.type) {
+    case "DO_SOMETHING":
+      return state + 1;
+    default:
+      return state;
+  }
+};
+
+export default reducer;
+
+```
