@@ -45,3 +45,6 @@ store.dispatch({ type: "MINUS_ONE" });
 store.dispatch({ type: "MINUS_ONE" });
 ```
 
+## reducer を別ファイルに切り出す
+
+
