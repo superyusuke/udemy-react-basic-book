@@ -1,13 +1,18 @@
 ```js
-const reducer = (state = 0, action) => {
-  switch (action.type) {
-    case "PLUS_ONE":
-      return state + 1;
-    case "MINUS_ONE":
-      return state - 1;
-    default:
-      return state;
-  }
-};
+import React from "react";
+import { render } from "react-dom";
+import { Provider } from "react-redux";
+import { createStore } from "redux";
+import reducer from "./reducer";
+import App from "./Component1";
+
+const store = createStore(reducer);
+
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
 
 ```
