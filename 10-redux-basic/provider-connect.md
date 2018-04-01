@@ -39,7 +39,8 @@ render(
 
 ```
 
-## connect
+## connect で state と dispatch をコンポーネントに紐づける
+
 
 https://codesandbox.io/s/qq80yx1lr4
 
