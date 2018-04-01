@@ -47,6 +47,8 @@ store.dispatch({ type: "MINUS_ONE" });
 
 ## reducer を別ファイルに切り出し、また payload も活用する
 
+https://codesandbox.io/s/olwrv2rnxy
+
 ## reducer.js に切り出す
 
 reducer.js
