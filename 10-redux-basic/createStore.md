@@ -70,6 +70,7 @@ export default reducer;
 
 ```
 
+## reducer を import して使用する
 
 index.js
 
