@@ -27,3 +27,28 @@ const reducer = (state = 0, action) => {
 export default reducer;
 
 ```
+
+```js
+import { connect } from "react-redux";
+
+const Component = ({ someState, doSomeThing }) => {
+  return <div onClick={() => doSomeThing("some")}>{someState}</div>;
+};
+
+const mapStateToProps = state => {
+  return {
+    someState: state
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    doSomeThing: some => {
+      dispatch({ type: "DO_SOMETHING", payload: some });
+    }
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Component);
+
+```
