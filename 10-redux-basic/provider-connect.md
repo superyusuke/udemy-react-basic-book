@@ -41,6 +41,8 @@ render(
 
 ## connect
 
+https://codesandbox.io/s/qq80yx1lr4
+
 ```js
 import React from "react";
 import { connect } from "react-redux";
