@@ -47,6 +47,24 @@ store.dispatch({ type: "MINUS_ONE" });
 
 ## reducer を別ファイルに切り出し、また payload も活用する
 
+```js
+import { createStore } from "redux";
+import reducer from "./reducer";
 
+const store = createStore(reducer);
+
+store.subscribe(() => {
+  console.log(store.getState());
+});
+
+// action に type だけではなく、
+// payload など他のプロパティも持たせることで、
+// reducer の中で使用できる
+store.dispatch({ type: "PLUS", payload: { num: 1 } });
+store.dispatch({ type: "PLUS", payload: { num: 10 } });
+
+store.dispatch({ type: "MINUS", payload: { num: 1 } });
+store.dispatch({ type: "MINUS", payload: { num: 10 } });
+```
 
 
