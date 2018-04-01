@@ -2,7 +2,7 @@
 
 ![](/assets/redux_provide-connect.png)
 
-## Provider
+## Provider を使って store を React で使用する準備をする
 
 https://codesandbox.io/s/6xoq10ov73
 
