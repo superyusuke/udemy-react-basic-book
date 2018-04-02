@@ -2,6 +2,10 @@
 
 https://codesandbox.io/s/013mn57x20
 
+## 単にアクションを作成し返すだけの関数
+
+Action Creator は、単にアクションを作成し、返すだけの関数です。これを `dispatch(actionCreator())` と使用することで、アクションを与えます。
+
 ### actions/index.js
 
 ```js
