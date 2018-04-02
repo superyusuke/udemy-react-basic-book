@@ -38,6 +38,7 @@
   
 * [6章](5th/README.md)
   * [Giphy API を使用して、GIF画像検索する React App の作成](6-giphy/giphy-api.md)
+  
 * [Redux の導入](10-redux-basic/README.md)
   * [Redux の概要](10-redux-basic/over-view-redux.md)
   * [createStore で store を作る](10-redux-basic/createStore.md)
