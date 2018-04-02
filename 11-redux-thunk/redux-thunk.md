@@ -47,3 +47,20 @@ render(
 );
 
 ```
+
+### 
+
+actions/index
+
+```js
+// (dispatch) => {} という関数を返すようにする
+// この中で dispatch(action) をすればよい
+export const asyncMinus = num => {
+  return dispatch => {
+    setTimeout(() => {
+      dispatch({ type: "MINUS", payload: { num: num } });
+    }, 1000);
+  };
+};
+
+```
