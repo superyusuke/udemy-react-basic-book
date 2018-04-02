@@ -66,6 +66,10 @@ export default reducer;
 
 ### App.js
 
+- メインのコンポーネント
+- connect で redux の store と結びつける
+- state, dispatch がコンポーネントの props に渡される
+
 ```js
 import React from "react";
 import { connect } from "react-redux";
