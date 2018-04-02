@@ -42,7 +42,7 @@
   * [Combine Reducer](10-redux-basic/combine-reducer.md)
 * [Redux-thunk](11-redux-thunk/README.md)
   * [Redux-thunk で非同期にアクションを発行する](11-redux-thunk/redux-thunk.md)
-  * [](11-redux-thunk/promise-on-redux-thunk.md)
+  * [Promise を Redux-thunk 上で活用する](11-redux-thunk/promise-on-redux-thunk.md)
   
 
 
