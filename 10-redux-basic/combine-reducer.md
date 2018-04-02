@@ -4,7 +4,7 @@ https://codesandbox.io/s/913nzp83rr
 
 ![](/assets/redux.004.jpeg)
 
-sta
+### reducers/index.js
 
 ```js
 import { combineReducers } from "redux";
