@@ -4,7 +4,7 @@ https://codesandbox.io/s/pyx1lrjkjx
 
 index.js
 
-```
+```js
 import React from "react";
 import { render } from "react-dom";
 
