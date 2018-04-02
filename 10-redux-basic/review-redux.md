@@ -38,6 +38,11 @@ render(
 
 ### reducer.js
 
+- state を更新するための関数である reducer を作成する
+- 現在の state と action を元に、新しい state を作成し
+更新する
+- 初期値を与えることと、default の場合を忘れずに
+
 ```js
 // 現在の state と受け取った action の内容から
 // 新しい state を作成し、
