@@ -2,6 +2,8 @@
 
 ## Action Creator の中で非同期処理がうまく書けない…
 
+actions/index.js
+
 ```js
 export const asyncMinus = num => {
   setTimeout(() => {
