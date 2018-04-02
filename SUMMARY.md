@@ -38,6 +38,7 @@
   * [createStore で store を作る](10-redux-basic/createStore.md)
   * [Provider と Connect / store を React で使用する](10-redux-basic/provider-connect.md)
   * [Redux の全体像の確認](10-redux-basic/review-redux.md)
+  * [Action Creator](10-redux-basic/action-creator.md)
 
 
 
