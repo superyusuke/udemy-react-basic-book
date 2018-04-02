@@ -1,4 +1,4 @@
-# createStore
+# createStore で store を作る
 
 ## store を作る
 
