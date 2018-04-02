@@ -9,7 +9,8 @@ export const asyncMinus = num => {
   setTimeout(() => {
     return { type: "MINUS", payload: { num: num } };
   }, 1000);
-};```
+};
+```
 
 ### index.js で middleWare を適用する
 
