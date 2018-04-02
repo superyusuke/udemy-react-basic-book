@@ -38,8 +38,7 @@
   
 * [Redux の導入](10-redux-basic/README.md)
   * [Redux の概要](10-redux-basic/over-view-redux.md)
-  * [createStore で store を作る
-](10-redux-basic/createStore.md)
+  * [createStore で store を作る](10-redux-basic/createStore.md)
 
 
 
