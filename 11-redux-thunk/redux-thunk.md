@@ -1,6 +1,6 @@
 # Redux-thunk で非同期にアクションを発行する
 
-## 
+## Action Creator の中で非同期処理がうまく書けない…
 
 ```js
 export const asyncMinus = num => {
