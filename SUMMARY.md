@@ -40,7 +40,9 @@
   * [Redux の全体像の確認](10-redux-basic/review-redux.md)
   * [Action Creator](10-redux-basic/action-creator.md)
   * [Combine Reducer](10-redux-basic/combine-reducer.md)
-
+* [Redux-thunk](11-redux-thunk/README.md)
+  * [Redux-thunk で非同期にアクションを発行する](11-redux-thunk/redux-thunk.md)
+  
 
 
 
