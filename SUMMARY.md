@@ -7,6 +7,7 @@
   * [GitHub との連携](1st/connect-to-github.md)
   * [CodeSandbox の構造](1st/structure.md)
   
+  
 * [2章](2nd/README.md)
   * [最小限の React アプリケーションの実装](2nd/minimal-react-app.md)
   * [JSX と React Element](2nd/jsx-and-react-element.md)
@@ -15,6 +16,7 @@
   * [初めての React Component](2nd/first-react-component.md)
   * [ES2015 の import / export](2nd/import-export.md)
   * [2章の復習](2nd/component-review.md)
+  
   
 * [3章](3rd/README.md)
   * [State とは何か](3rd/what-is-state.md)
@@ -28,16 +30,20 @@
   * [map と filter](3rd/map-and-filter.md)
   * [map と filter の実践](3rd/map-filter-example1.md)  
   
+  
 * [4章](4th/README.md)
   * [TodoApp の作成](4th/todoApp.md)
+  
   
 * [5章](5th/README.md)
   * [HTTP プロトコルと AJAX](5-ajax/http-ajax.md)
   * [非同期処理と Promise](5-ajax/async.md)
   * [JSON を取得し、その内容をレンダリングする React App の作成](5-ajax/get-josn-app-demo.md)
   
+  
 * [6章](5th/README.md)
   * [Giphy API を使用して、GIF画像検索する React App の作成](6-giphy/giphy-api.md)
+  
   
 * [Redux の導入](10-redux-basic/README.md)
   * [Redux の概要](10-redux-basic/over-view-redux.md)
