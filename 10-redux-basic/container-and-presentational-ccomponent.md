@@ -8,6 +8,10 @@ http://better-than-i-was-yesterday.com/presentational-and-container-components/
 
 https://codesandbox.io/s/o5rok9m2y9
 
+## ロジックと見た目を切り分ける
+
+
+
 ### components/App.js
 
 ```js
