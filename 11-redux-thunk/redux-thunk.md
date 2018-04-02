@@ -1,1 +1,1 @@
-# Redux-thunk で非同期処理をする
+# Redux-thunk で非同期にアクションを発行する
