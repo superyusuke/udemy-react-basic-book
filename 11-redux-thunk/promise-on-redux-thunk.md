@@ -28,6 +28,8 @@ export const getJson = () => {
 
 ```
 
+### Reducer を変更する
+
 reducers/title.js
 
 ```js
