@@ -1,5 +1,14 @@
 # Redux-thunk で非同期にアクションを発行する
 
+## 
+
+```js
+export const asyncMinus = num => {
+  setTimeout(() => {
+    return { type: "MINUS", payload: { num: num } };
+  }, 1000);
+};```
+
 ### index.js で middleWare を適用する
 
 ```js
