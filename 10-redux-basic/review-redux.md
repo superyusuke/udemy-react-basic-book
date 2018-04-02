@@ -2,7 +2,12 @@
 
 https://codesandbox.io/s/pyx1lrjkjx
 
-index.js
+### index.js
+
+- store の作成(reducerを用いる)
+- Provider で App をラッピングする
+- Provider に store を渡し、
+
 
 ```js
 import React from "react";
