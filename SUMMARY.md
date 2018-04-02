@@ -36,6 +36,7 @@
 * [Redux の導入](10-redux-basic/README.md)
   * [Redux の概要](10-redux-basic/over-view-redux.md)
   * [createStore で store を作る](10-redux-basic/createStore.md)
+  * [Provider と Connect / store を React で使用する](10-redux-basic/provider-connect.md)
 
 
 
