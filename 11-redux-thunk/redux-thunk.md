@@ -16,6 +16,8 @@ export const asyncMinus = num => {
 
 ### index.js で middleWare を適用する
 
+index.js
+
 ```js
 import React from "react";
 import { render } from "react-dom";
