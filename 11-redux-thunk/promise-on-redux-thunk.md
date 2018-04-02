@@ -8,7 +8,6 @@ actions/index.js
 // axios をインポート
 import axios from "axios";
 
-
 export const changeTitle = title => {
   return { type: "CHANGE_TITLE", payload: { title: title } };
 };
