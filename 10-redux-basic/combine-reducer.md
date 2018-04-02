@@ -5,7 +5,7 @@ https://codesandbox.io/s/913nzp83rr
 
 ## Reducer を一つにまとめる
 
-複数の値を state で管理しやすくするために、reducer を複数用意し、ツリー上に紐付けましょう。そのためには combineReducer を用います。
+複数の state を管理しやすくするために、reducer を複数用意し、ツリー上に紐付けましょう。そのためには combineReducer を用います。
 
 ![](/assets/redux.004.jpeg)
 
