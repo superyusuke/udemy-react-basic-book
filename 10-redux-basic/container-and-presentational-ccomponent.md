@@ -10,7 +10,9 @@ https://codesandbox.io/s/o5rok9m2y9
 
 ## ロジックと見た目を切り分ける
 
-Presentational Component、つまり見た目を担当するコンポーネントは、ロジックに関与しないよう、ロジックを別コンポーネントに切り分ける。
+Presentational Component、つまり見た目を担当するコンポーネントは、ロジックに関与しないよう、別コンポーネントに切り分ける。
+
+Container Component が、Presentational Component にロジックを与える役割を担う。
 
 ### components/App.js
 
