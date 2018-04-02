@@ -1,4 +1,4 @@
-# Aixos でデータを取得する
+# Promise を Redux-thunk 上で活用する
 
 ## redux-thunk を使って任意のタイミングでアクションを発行する
 
