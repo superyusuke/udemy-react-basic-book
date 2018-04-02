@@ -50,7 +50,7 @@ render(
 
 ### 
 
-actions/index
+actions/index.js
 
 ```js
 // (dispatch) => {} という関数を返すようにする
