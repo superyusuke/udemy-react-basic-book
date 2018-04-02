@@ -1,5 +1,7 @@
 # Aixos でデータを取得する
 
+## redux-thunk を使って任意のタイミングでアクションを発行する
+
 actions/index.js
 
 ```js
