@@ -1,5 +1,7 @@
 # Aixos でデータを取得する
 
+actions/index.js
+
 ```js
 // axios をインポート
 import axios from "axios";
