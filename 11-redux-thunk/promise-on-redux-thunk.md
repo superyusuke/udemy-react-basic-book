@@ -1,5 +1,7 @@
 # Promise を Redux-thunk 上で活用する
 
+https://codesandbox.io/s/jxwyxr9vv
+
 ## redux-thunk を使って任意のタイミングでアクションを発行する
 
 actions/index.js
