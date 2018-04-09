@@ -2,6 +2,8 @@
 
 ## 動画 1
 
+index.js
+
 ```js
 import React from "react";
 import { render } from "react-dom";
