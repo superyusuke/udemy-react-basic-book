@@ -24,7 +24,7 @@
   * [H20 Component 3](3rd/H20 Component 3.md)
   * [H20 Component 4](3rd/H20 Component 4.md)
   * [map と filter](3rd/map-and-filter.md)
-  * [map と filter の実践](3rd/map-filter-example1.md)  
+  * [map と filter の実践](3rd/map-filter-example1.md)
 * [4章](4th/README.md)
   * [TodoApp の作成](4th/todoApp.md)
 * [5章](5th/README.md)
@@ -40,55 +40,7 @@
   * [Redux の全体像の確認](10-redux-basic/review-redux.md)
   * [Action Creator](10-redux-basic/action-creator.md)
   * [Combine Reducer](10-redux-basic/combine-reducer.md)
-* [Redux-thunk](11-redux-thunk/README.md)
+* [Redux-thunk を用いた非同期処理](11-redux-thunk/README.md)
   * [Redux-thunk で非同期にアクションを発行する](11-redux-thunk/redux-thunk.md)
   * [Promise を Redux-thunk 上で活用する](11-redux-thunk/promise-on-redux-thunk.md)
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
