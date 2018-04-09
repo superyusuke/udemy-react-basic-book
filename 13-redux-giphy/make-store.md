@@ -1,6 +1,8 @@
-## store を作る
+# store を作る
 
-```
+## 動画 1
+
+```js
 import React from "react";
 import { render } from "react-dom";
 
