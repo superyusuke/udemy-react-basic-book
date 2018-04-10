@@ -145,7 +145,7 @@ export default App;
 
 ```
 
-### 
+### containers/Search.js
 
 ```js
 import Search from "../components/Search";
