@@ -103,3 +103,14 @@ const imageUrls = (state = initialState, action) => {
 export default imageUrls;
 
 ```
+
+### index.js
+
+仮に実行する。
+
+```js
+// 仮に実行
+import getUrls from "./actions/getUrls";
+store.dispatch(getUrls("cat"));
+
+```
