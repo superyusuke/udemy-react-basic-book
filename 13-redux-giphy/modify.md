@@ -53,6 +53,8 @@ export default imageUrls;
 
 ### actions/getUrls.js
 
+リクエストが始まる直前に新たなアクションをディスパッチする
+
 ```js
 import giphyAPI from "../APIs/giphyAPI";
 
