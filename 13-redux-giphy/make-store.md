@@ -41,7 +41,7 @@ export default App;
 ## reducer の作成
 https://codesandbox.io/s/mq63n3m9oj
 
-imageUrls.js
+reducers/imageUrls.js
 
 ```js
 const initialState = [1, 2, 3, 4, 5];
@@ -59,3 +59,13 @@ const imageUrls = (state = initialState, action) => {
 export default imageUrls;
 ```
 
+reducers/index.js
+
+```js
+import { combineReducers } from "redux";
+
+import imageUrls from "./imageUrls";
+
+export default combineReducers({ imageUrls });
+
+```
