@@ -123,7 +123,7 @@ store.dispatch(getUrls("cat"));
 
 ### App.js
 
-```
+```js
 import React from "react";
 
 import ImageList from "./containers/ImageList";
