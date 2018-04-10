@@ -31,7 +31,7 @@
   * [HTTP プロトコルと AJAX](5-ajax/http-ajax.md)
   * [非同期処理と Promise](5-ajax/async.md)
   * [JSON を取得し、その内容をレンダリングする React App の作成](5-ajax/get-josn-app-demo.md)
-* [6章](5th/README.md)
+* [実践：API を叩く App](5th/README.md)
   * [Giphy API を使用して、GIF画像検索する React App の作成](6-giphy/giphy-api.md)
 * [Redux の導入](10-redux-basic/README.md)
   * [Redux の概要](10-redux-basic/over-view-redux.md)
