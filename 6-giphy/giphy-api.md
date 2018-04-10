@@ -219,7 +219,6 @@ index.js
 import "./App.css";
 ```
 
-
 App.css
 
 ```css
