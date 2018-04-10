@@ -38,6 +38,8 @@ giphyAPI("cat").then(res => {
 
 ## redux-thunk を適用する
 
+https://codesandbox.io/s/9zx8nrnzjr
+
 ### index.js
 
 ```js
