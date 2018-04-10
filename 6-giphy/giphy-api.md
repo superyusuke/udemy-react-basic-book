@@ -212,6 +212,13 @@ handleSubmit = event => {
 
 https://codesandbox.io/s/8vxy99n28
 
+index.js
+
+```js
+import "./App.css";
+```
+
+
 App.css
 
 ```css
