@@ -41,6 +41,8 @@ export default App;
 ## reducer の作成
 https://codesandbox.io/s/mq63n3m9oj
 
+imageUrls.js
+
 ```js
 const initialState = [1, 2, 3, 4, 5];
 
