@@ -167,3 +167,16 @@ export default connect(null, mapDispatchToProps)(Search);
 
 ```
 
+### components/Search.js
+
+```js
+handleSubmit = event => {
+    // connect で与えられたメソッドを受け取る
+    const { getUrls } = this.props;
+    event.preventDefault();
+    // 使用する
+    getUrls(this.state.title);
+    this.setState({ title: "" });
+  };
+```
+
