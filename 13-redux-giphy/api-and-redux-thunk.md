@@ -22,6 +22,8 @@ export default giphyApi;
 
 ### index.js
 
+作ったメソッドを仮に実行する
+
 ```js
 // 仮に実行する
 import giphyAPI from "./APIs/giphyAPI";
