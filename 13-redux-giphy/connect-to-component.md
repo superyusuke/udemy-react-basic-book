@@ -1,0 +1,1 @@
+# コンポーネントに store を connect 
