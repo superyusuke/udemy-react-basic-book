@@ -82,4 +82,6 @@ combineReducers でまとめ上げた reducer を import して、createStore �
 import rootReducer from "./reducers";
 const store = createStore(rootReducer);
 
+//　正常に動いているか確認
+console.log(store.getState());
 ```
