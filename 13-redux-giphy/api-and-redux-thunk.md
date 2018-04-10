@@ -56,6 +56,8 @@ const store = createStore(rootReducer, applyMiddleware(...middleWares));
 
 ## action を作る
 
+https://codesandbox.io/s/64rq4lyj23
+
 ### actions/getUrls.js
 
 ```js
