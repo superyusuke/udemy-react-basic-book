@@ -118,3 +118,6 @@ import getUrls from "./actions/getUrls";
 store.dispatch(getUrls("cat"));
 
 ```
+
+## Search コンポーネントにメソッドを connect する
+
