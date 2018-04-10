@@ -110,3 +110,21 @@ const mapDispatchToProps = dispatch => {
 export default connect(mapStateToProps, mapDispatchToProps)(Search);
 
 ```
+
+### components/Search.js
+
+```js
+render() {
+    // props として受け取る
+    const { buttonText } = this.props;
+    return (
+      <div>
+        <form onSubmit={this.handleSubmit}>
+          <input value={this.state.title} onChange={this.handleChange} />
+          {/* button の値に使用する */}
+          <input type="submit" value={buttonText} />
+        </form>
+      </div>
+    );
+  }
+```
