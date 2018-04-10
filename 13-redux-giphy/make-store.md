@@ -1,4 +1,4 @@
-# store を作る
+。# store を作る
 
 ## store の準備
 
@@ -77,7 +77,6 @@ export default combineReducers({ imageUrls });
 ### index.js
 
 combineReducers でまとめ上げた reducer を import して、createStore に与える
-
 
 ```js
 import rootReducer from "./reducers";
