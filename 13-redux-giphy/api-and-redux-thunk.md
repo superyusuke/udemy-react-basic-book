@@ -121,7 +121,7 @@ store.dispatch(getUrls("cat"));
 
 ## Search コンポーネントにメソッドを connect する
 
-https://codesandbox.io/s/8kyxj2kl9j
+https://codesandbox.io/s/0or0zq8pvn
 
 ### App.js
 
