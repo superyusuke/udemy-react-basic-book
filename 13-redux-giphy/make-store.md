@@ -1,6 +1,6 @@
 # store を作る
 
-## 動画 1
+## store の準備
 
 https://codesandbox.io/s/0q54o9lxw0
 
@@ -38,5 +38,22 @@ const App = () => {
 export default App;
 ```
 
-## 動画2
+## reducer の作成
+https://codesandbox.io/s/mq63n3m9oj
+
+```js
+const initialState = [1, 2, 3, 4, 5];
+
+const imageUrls = (state = initialState, action) => {
+  switch (action.type) {
+    case "RECEIVE_DATA":
+      return "data";
+
+    default:
+      return state;
+  }
+};
+
+export default imageUrls;
+```
 
