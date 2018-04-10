@@ -47,5 +47,7 @@
   * [store を作る](13-redux-giphy/make-store.md)
   * [Component に store を connect する](13-redux-giphy/connect-to-component.md)
   * [Search コンポーネントを作る](13-redux-giphy/seach-components.md)
-  * (13-redux-giphy/api-and-redux-thunk.md)
+  * [GiphyAPI を叩くメソッドの作成と Redux-thunk を使った非同期処理
+
+](13-redux-giphy/api-and-redux-thunk.md)
 
