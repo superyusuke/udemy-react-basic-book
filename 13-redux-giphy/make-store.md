@@ -41,7 +41,7 @@ export default App;
 ## reducer の作成
 https://codesandbox.io/s/mq63n3m9oj
 
-reducers/imageUrls.js
+### reducers/imageUrls.js
 
 取得した画像用URLのための reducer
 
@@ -61,7 +61,7 @@ const imageUrls = (state = initialState, action) => {
 export default imageUrls;
 ```
 
-reducers/index.js
+### reducers/index.js
 
 複数の reducer を combineReducers でまとめ上げるためのファイル
 
@@ -74,7 +74,10 @@ export default combineReducers({ imageUrls });
 
 ```
 
-index.js
+### index.js
+
+combineReducers でまとめ上げた reducer を import して、createStore に与える
+
 
 ```js
 import rootReducer from "./reducers";
