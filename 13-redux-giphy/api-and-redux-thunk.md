@@ -121,3 +121,10 @@ store.dispatch(getUrls("cat"));
 
 ## Search コンポーネントにメソッドを connect する
 
+### App.js
+
+```
+// components から containers へ変更
+import Search from "./containers/Search";
+
+```
