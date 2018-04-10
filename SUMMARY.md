@@ -44,4 +44,5 @@
   * [Redux-thunk で非同期にアクションを発行する](11-redux-thunk/redux-thunk.md)
   * [Promise を Redux-thunk 上で活用する](11-redux-thunk/promise-on-redux-thunk.md)
 * [React + Redux + Redux を用いた Giphy App](13-redux-giphy/README.md)
+  * [store を作る](13-redux-giphy/make-store.md)
 
