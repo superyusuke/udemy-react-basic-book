@@ -4,5 +4,7 @@
 
 ### reducers/imageUrls.js
 
+```js
 // 初期値を空に
 const initialState = [];
+```
