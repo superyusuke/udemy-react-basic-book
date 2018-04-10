@@ -215,6 +215,7 @@ https://codesandbox.io/s/8vxy99n28
 index.js
 
 ```js
+// css を読み込む
 import "./App.css";
 ```
 
