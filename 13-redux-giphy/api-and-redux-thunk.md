@@ -56,6 +56,32 @@ const store = createStore(rootReducer, applyMiddleware(...middleWares));
 
 ## action を作る
 
+### actions/getUrls.js
+
+```js
+import giphyAPI from "../APIs/giphyAPI";
+
+const receiveData = data => {
+  return {
+    type: "RECEIVE_DATA",
+    payload: data
+  };
+};
+
+const getUrls = word => {
+  return dispatch => {
+    giphyAPI(word).then(res => {
+      const data = res.data.data;
+      const imageUrlList = data.map(item => item.images.downsized.url);
+      dispatch(receiveData(imageUrlList));
+    });
+  };
+};
+
+export default getUrls;
+
+```
+
 ### reducers/imageUrls.js
 
 reducer の修正
