@@ -54,7 +54,7 @@ const store = createStore(rootReducer, applyMiddleware(...middleWares));
 
 ```
 
-## actio を作る
+## action を作る
 
 ### reducers/imageUrls.js
 
