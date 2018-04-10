@@ -25,7 +25,7 @@
   * [H20 Component 4](3rd/H20 Component 4.md)
   * [map と filter](3rd/map-and-filter.md)
   * [map と filter の実践](3rd/map-filter-example1.md)
-* [4章](4th/README.md)
+* [実践：TodoApp の作成](4th/README.md)
   * [TodoApp の作成](4th/todoApp.md)
 * [5章](5th/README.md)
   * [HTTP プロトコルと AJAX](5-ajax/http-ajax.md)
