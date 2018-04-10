@@ -58,6 +58,8 @@ const store = createStore(rootReducer, applyMiddleware(...middleWares));
 
 ### reducers/imageUrls.js
 
+reducer の修正
+
 ```js
 const initialState = [1, 2, 3, 4, 5];
 
