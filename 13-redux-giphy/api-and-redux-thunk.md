@@ -46,10 +46,6 @@ import { createStore, applyMiddleware } from "redux";
 // redux-thunk も読み込む
 import thunk from "redux-thunk";
 
-import { Provider } from "react-redux";
-
-import rootReducer from "./reducers";
-
 // middleWare 用の配列を作成する
 const middleWares = [thunk];
 
