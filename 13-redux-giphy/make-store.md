@@ -1,4 +1,4 @@
-。# store を作る
+# store を作る
 
 ## store の準備
 
