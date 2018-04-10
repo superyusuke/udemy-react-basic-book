@@ -128,3 +128,12 @@ render() {
     );
   }
 ```
+
+## CSS
+
+### index.js
+
+```js
+// CSS を読み込む
+import "./App.css";
+```
