@@ -46,4 +46,5 @@
 * [React + Redux + Redux を用いた Giphy App](13-redux-giphy/README.md)
   * [store を作る](13-redux-giphy/make-store.md)
   * [Component に store を connect する](13-redux-giphy/connect-to-component.md)
+  * [Search コンポーネントを作る](13-redux-giphy/seach-components.md)
 
