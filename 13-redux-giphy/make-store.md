@@ -43,6 +43,8 @@ https://codesandbox.io/s/mq63n3m9oj
 
 reducers/imageUrls.js
 
+取得した画像用URLのための reducer
+
 ```js
 const initialState = [1, 2, 3, 4, 5];
 
@@ -60,6 +62,8 @@ export default imageUrls;
 ```
 
 reducers/index.js
+
+複数の reducer を combineReducers でまとめ上げるためのファイル
 
 ```js
 import { combineReducers } from "redux";
