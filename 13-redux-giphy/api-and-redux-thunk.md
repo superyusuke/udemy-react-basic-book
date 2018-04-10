@@ -2,7 +2,9 @@
 
 ## GiphyAPI を叩くメソッドの作成
 
-### APIs/giphyAPI
+https://codesandbox.io/s/k30no82zo5
+
+### APIs/giphyAPI.js
 
 ```js
 import axios from "axios";
