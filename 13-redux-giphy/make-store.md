@@ -69,3 +69,11 @@ import imageUrls from "./imageUrls";
 export default combineReducers({ imageUrls });
 
 ```
+
+index.js
+
+```js
+import rootReducer from "./reducers";
+const store = createStore(rootReducer);
+
+```
