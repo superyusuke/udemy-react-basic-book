@@ -19,3 +19,15 @@ const giphyApi = word => {
 export default giphyApi;
 
 ```
+
+### index.js
+
+```js
+// 仮に実行する
+import giphyAPI from "./APIs/giphyAPI";
+
+giphyAPI("cat").then(res => {
+  console.log(res.data);
+});
+
+```
