@@ -22,3 +22,11 @@ const giphyApi = word => {
   return axios.get(url);
 };
 ```
+
+## ロード状況をボタンに表示する
+
+```js
+https://codesandbox.io/s/l4j8zj4poz
+```
+
+
