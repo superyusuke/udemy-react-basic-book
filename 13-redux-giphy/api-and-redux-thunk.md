@@ -37,3 +37,4 @@ giphyAPI("cat").then(res => {
 ```
 
 ## redux-thunk を適用する
+
