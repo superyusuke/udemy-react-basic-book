@@ -4,6 +4,10 @@
 
 https://codesandbox.io/s/k30no82zo5
 
+### dependencies の追加
+
+Axios を dependencies に追加する
+
 ### APIs/giphyAPI.js
 
 ```js
