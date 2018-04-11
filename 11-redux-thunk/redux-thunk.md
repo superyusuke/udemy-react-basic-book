@@ -75,6 +75,7 @@ export const asyncMinus = num => {
 import App from "../components/App";
 import { connect } from "react-redux";
 
+// 作った action である asyncMinus を読み込む
 import { minus, plus, asyncMinus } from "../actions";
 
 const mapStateToProps = state => {
@@ -94,6 +95,7 @@ const mapDispatchToProps = dispatch => {
       dispatch(minus(num));
     },
     asyncMinus: num => {
+      // 渡す
       dispatch(asyncMinus(num));
     }
   };
@@ -108,6 +110,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 ```js
 import React from "react";
 
+// asyncMinus を受け取る
 const App = ({ number, day, title, plus, minus, asyncMinus }) => (
   <div>
     <h2>
