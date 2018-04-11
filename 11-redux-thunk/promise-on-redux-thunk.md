@@ -61,6 +61,7 @@ export default title;
 import App from "../components/App";
 import { connect } from "react-redux";
 
+// getJson を読み込む
 import { minus, plus, asyncMinus, getJson } from "../actions";
 
 const mapStateToProps = state => {
@@ -83,6 +84,7 @@ const mapDispatchToProps = dispatch => {
       dispatch(asyncMinus(num));
     },
     getJson: () => {
+      // 追加する
       dispatch(getJson());
     }
   };
