@@ -13,7 +13,7 @@ CodeSandBox で React を選んで起動した後に、必要のないファイ�
 
 ### import で必要な関数等を読み込む
 
-ES2015\(ES6\) の記法である `import` を使って、javascript のモジュールを `index.js` の中で使えるようにするために、読み込む。\( `import` に関しては後述します。\)
+ES2015\(ES6\) の記法である `import` を使って、JavaScript のモジュールを `index.js` の中で使えるようにするために、読み込む。\( `import` に関しては後述します。\)
 
 ```js
 // index.js
@@ -21,7 +21,7 @@ import React from 'react'
 import { render } from 'react-dom'
 ```
 
-## 読み込んだ render 関数を使って、React App を実行する
+## 読み込んだ render 関数を使って、React App をレンダリングする
 
 ```js
 // index.js
