@@ -6,6 +6,9 @@ https://codesandbox.io/s/ovv2o75mr5
 
 次のように Action Creator の中でアクションを非同期に返しても、うまくいきません。ですので **「Redux-thunk」** をミドルウェアとして使用する必要があります。
 
+
+### うまくいかない例
+
 actions/index.js
 
 ```js
