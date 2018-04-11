@@ -46,7 +46,7 @@ export default connect(mapStateToProps, null)(ImageList);
 
 connect されたコンポーネントを使用する
 
-```
+```js
 import React from "react";
 
 import ImageList from "./containers/ImageList";
