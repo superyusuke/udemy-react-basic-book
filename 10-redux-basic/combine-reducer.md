@@ -43,6 +43,8 @@ export default title;
 
 ### reducers/index.js
 
+複数の reducer をまとめあげます
+
 ```js
 import { combineReducers } from "redux";
 
