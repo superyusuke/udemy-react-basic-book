@@ -69,6 +69,7 @@ https://codesandbox.io/s/64rq4lyj23
 ```js
 import giphyAPI from "../APIs/giphyAPI";
 
+// 通常の action creator
 const receiveData = data => {
   return {
     type: "RECEIVE_DATA",
@@ -76,6 +77,7 @@ const receiveData = data => {
   };
 };
 
+// thunk 用の関数を返す action creator
 const getUrls = word => {
   return dispatch => {
     giphyAPI(word).then(res => {
