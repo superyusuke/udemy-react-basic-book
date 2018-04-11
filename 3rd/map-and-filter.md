@@ -4,7 +4,7 @@
 
 https://codesandbox.io/s/ykzkmjkmq9
 
-map は配列に対して実行できる JavaScript の組み込みメソッド(元から用意されているメソッド)で、配列の内容を元に新しい配列を作るために使用します。
+map は配列に対して実行できる JavaScript の組み込みメソッド(元から用意されているメソッド)で、配列の内容を元に**「新しい配列」**を作るために使用します。
 
 ```js
 const array1 = [0, 1, 2, 3, 4];
@@ -28,6 +28,8 @@ console.log(newArray2);
 ## filter
 
 https://codesandbox.io/s/qq7j1k06p4
+
+map は配列に対して実行できる JavaScript の組み込みメソッド(元から用意されているメソッド)で、**「`true` を返した場合の配列だけが採用された」**新しい配列を作るために使用します。
 
 ```js
 const array1 = [1, 2, 3, 4, 5];
