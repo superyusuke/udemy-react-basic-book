@@ -4,7 +4,13 @@
 
 https://codesandbox.io/s/0q54o9lxw0
 
-index.js
+以下を dependencies に追加する
+
+- redux
+- react-redux
+- redux-thunk
+
+### index.js
 
 ```js
 import React from "react";
@@ -27,7 +33,7 @@ render(
 );
 ```
 
-App.js
+### App.js
 ```js
 import React from "react";
 
