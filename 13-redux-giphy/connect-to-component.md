@@ -41,3 +41,25 @@ const mapStateToProps = state => {
 export default connect(mapStateToProps, null)(ImageList);
 
 ```
+
+### app.js
+
+connect されたコンポーネントを使用する
+
+```
+import React from "react";
+
+import ImageList from "./containers/ImageList";
+
+const App = () => {
+  return (
+    <div>
+      App
+      <ImageList />
+    </div>
+  );
+};
+
+export default App;
+
+```
