@@ -19,7 +19,7 @@ export const asyncMinus = num => {
 };
 ```
 
-### index.js で middleWare を適用する
+### index.js で redux-thunk を middleWare として適用する
 
 index.js
 
