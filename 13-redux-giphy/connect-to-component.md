@@ -26,6 +26,8 @@ export default ImageList;
 
 ### containers/ImageList.js
 
+store を先ほど作成したコンポーネントに connect する
+
 ```js
 import ImageList from "../components/ImageList";
 import { connect } from "react-redux";
