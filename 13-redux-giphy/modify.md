@@ -129,7 +129,7 @@ render() {
   }
 ```
 
-## CSS
+## CSS でスタイリングをする
 
 https://codesandbox.io/s/4z7oy358vw
 
