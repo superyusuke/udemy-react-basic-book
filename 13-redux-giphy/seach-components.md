@@ -1,6 +1,8 @@
 # Search コンポーネントの作成
 
- ### /components/search.js 
+https://codesandbox.io/s/zn9ymy41x3
+
+### /components/search.js 
  
  ```js
  import React from "react";
@@ -35,4 +37,30 @@ class Search extends React.Component {
 }
 
 export default Search;
+```
+
+### app.js
+
+作ったコンポーネントを使用する
+
+```js
+import React from "react";
+
+import ImageList from "./containers/ImageList";
+
+// Search Component を追加する
+import Search from "./components/Search";
+
+const App = () => {
+  return (
+    <div>
+      App
+      <Search />
+      <ImageList />
+    </div>
+  );
+};
+
+export default App;
+
 ```
