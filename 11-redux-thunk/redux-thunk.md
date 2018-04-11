@@ -57,7 +57,7 @@ render(
 
 ### 関数を返すアクションクリエイターを作る
 
-actions/index.js
+#### actions/index.js
 
 ```js
 // (dispatch) => {} という関数を返すようにする
@@ -72,7 +72,9 @@ export const asyncMinus = num => {
 
 ```
 
-### containers/App.js
+### コンポーネント、コネクトの修正
+
+#### containers/App.js
 
 ```js
 import App from "../components/App";
@@ -108,7 +110,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 ```
 
-### components/App.js
+#### components/App.js
 
 ```js
 import React from "react";
