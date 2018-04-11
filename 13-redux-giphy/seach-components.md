@@ -1,4 +1,4 @@
-# Search コンポーネントを作る
+# Search コンポーネントの作成
 
  ### /components/search.js 
  
