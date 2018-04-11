@@ -9,6 +9,10 @@ https://codesandbox.io/s/913nzp83rr
 
 ![](/assets/redux.004.jpeg)
 
+### reducer.num.j
+
+reducer ディレクトリの中に移動させます。
+
 ### reducer/day.js
 
 ```js
