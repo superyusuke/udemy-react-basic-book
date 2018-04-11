@@ -68,3 +68,75 @@ export const asyncMinus = num => {
 };
 
 ```
+
+### containers/App.js
+
+```js
+import App from "../components/App";
+import { connect } from "react-redux";
+
+import { minus, plus, asyncMinus } from "../actions";
+
+const mapStateToProps = state => {
+  return {
+    number: state.number,
+    day: state.day,
+    title: state.title
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    plus: num => {
+      dispatch(plus(num));
+    },
+    minus: num => {
+      dispatch(minus(num));
+    },
+    asyncMinus: num => {
+      dispatch(asyncMinus(num));
+    }
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+```
+
+### components/App.js
+
+```js
+import React from "react";
+
+const App = ({ number, day, title, plus, minus, asyncMinus }) => (
+  <div>
+    <h2>
+      {title} {number} {day}
+    </h2>
+    <button
+      onClick={() => {
+        plus(10);
+      }}
+    >
+      + 10
+    </button>
+    <button
+      onClick={() => {
+        minus(10);
+      }}
+    >
+      - 10
+    </button>
+    <button
+      onClick={() => {
+        asyncMinus(10);
+      }}
+    >
+      async - 10
+    </button>
+  </div>
+);
+
+export default App;
+
+```
