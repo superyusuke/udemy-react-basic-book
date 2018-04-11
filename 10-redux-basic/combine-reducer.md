@@ -60,3 +60,67 @@ export default combineReducers({
 });
 
 ```
+
+### containers/App.js
+
+```js
+import App from "../components/App";
+import { connect } from "react-redux";
+
+import { minus, plus } from "../actions";
+
+// 渡す state を増やす
+const mapStateToProps = state => {
+  return {
+    number: state.number,
+    day: state.day,
+    title: state.title
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    plus: num => {
+      dispatch(plus(num));
+    },
+    minus: num => {
+      dispatch(minus(num));
+    }
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+```
+
+### components/App.js
+
+```js
+import React from "react";
+
+// connect されたものを受け取る
+const App = ({ number, day, title, plus, minus }) => (
+  <div>
+    <h2>
+      {title} {number} {day}
+    </h2>
+    <button
+      onClick={() => {
+        plus(10);
+      }}
+    >
+      + 10
+    </button>
+    <button
+      onClick={() => {
+        minus(10);
+      }}
+    >
+      - 10
+    </button>
+  </div>
+);
+
+export default App;
+
+```
