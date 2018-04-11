@@ -4,6 +4,8 @@ https://codesandbox.io/s/5ykr13wjp4
 
 ### components/ImageList.js
 
+受け取った URL を元に img 要素を作成するコンポーネント
+
 ```js
 import React from "react";
 
