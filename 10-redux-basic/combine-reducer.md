@@ -9,6 +9,20 @@ https://codesandbox.io/s/913nzp83rr
 
 ![](/assets/redux.004.jpeg)
 
+### reducer/day.js
+
+```js
+const day = (state = "test day 2018", action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
+export default day;
+````
+
+
 ### reducers/index.js
 
 ```js
