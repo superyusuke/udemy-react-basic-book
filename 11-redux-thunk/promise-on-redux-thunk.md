@@ -94,3 +94,5 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 ```
 
+### components/App.js の修正
+
