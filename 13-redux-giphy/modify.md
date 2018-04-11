@@ -75,6 +75,8 @@ export default imageUrls;
 
 ### reducers/index.js
 
+buttonText reducer を rootReducer に束ねる
+
 ```js
 import { combineReducers } from "redux";
 
