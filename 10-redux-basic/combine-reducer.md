@@ -22,6 +22,20 @@ const day = (state = "test day 2018", action) => {
 export default day;
 ````
 
+### reducer/title.js
+
+```js
+const title = (state = "test title", action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
+export default title;
+
+```
+
 
 ### reducers/index.js
 
