@@ -132,6 +132,7 @@ const App = ({ number, day, title, plus, minus, asyncMinus }) => (
     </button>
     <button
       onClick={() => {
+        // 実行する
         asyncMinus(10);
       }}
     >
