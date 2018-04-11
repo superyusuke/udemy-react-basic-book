@@ -2,7 +2,7 @@
 
 https://codesandbox.io/s/ovv2o75mr5
 
-## Action Creator の中で非同期処理がうまく書けない…
+## Action Creator の中で非同期処理がうまく書けない… Redux-thunk を使う
 
 次のように Action Creator の中でアクションを非同期に返しても、うまくいきません。ですので **「Redux-thunk」** をミドルウェアとして使用する必要があります。
 
