@@ -3,6 +3,10 @@
 [https://codesandbox.io/s/kk2vx81z13](https://codesandbox.io/s/kk2vx81z13)
 
 ## React の場合
+
+`state`, `this.state`, `this.setState()` が state 管理の主役だった
+。
+
 ![](/assets/redux.001.jpeg)  
 
 ## Redux の場合
