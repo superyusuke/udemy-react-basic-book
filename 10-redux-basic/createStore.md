@@ -37,18 +37,6 @@ const reducer = (state = 0, action) => {
 // その際に reducer を紐づける
 const store = createStore(reducer);
 
-// store が変更された際に実行する内容を登録する
-store.subscribe(() => {
-  // store.getState() で state を取得できる
-  console.log(store.getState());
-});
-
-// action を dispatch する
-store.dispatch({ type: "PLUS_ONE" });
-store.dispatch({ type: "PLUS_ONE" });
-
-store.dispatch({ type: "MINUS_ONE" });
-store.dispatch({ type: "MINUS_ONE" });
 ```
 
 ## reducer を別ファイルに切り出し、また payload も活用する
