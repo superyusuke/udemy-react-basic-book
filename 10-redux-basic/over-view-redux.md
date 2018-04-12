@@ -8,6 +8,7 @@
 - ** store ** は 「一つ前の state, ** dispatch ** された ** action **, ** reducer **」を用いて、新しい state を生成し、これで自分自身の state を上書きすることで state を更新する。
 - redux で管理した state を変更するためには、かならず ** aciton ** ** dispatch ** することで行うこと。(`this.setState()`は使わない)
 - ** reducer ** は 「一つ前の state, ** dispatch ** された ** action **」を元に新しい state を生成するための ** 「関数」 **。
+- Redux が生成した store を React で使用するためには、store を React Component に Connect する。（Redux 単体は、単に state 管理のためのアプリケーションなので、React と結び付けないと）
 
       
 ![](/assets/redux.003.jpeg)
