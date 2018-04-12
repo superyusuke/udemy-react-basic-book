@@ -4,7 +4,7 @@
 
 ## React の場合
 
-`state`, `this.state`, `this.setState()` が state 管理の主役だった。
+`state`(`this.state`, `this.setState()`) が state 管理の主役だった。
 
 ![](/assets/redux.001.jpeg)  
 
@@ -16,8 +16,12 @@
 - ** store ** は 「一つ前の state, ** dispatch ** された ** action **, ** reducer **」を用いて、新しい state を生成し、これで自分自身の state を上書きすることで state を更新する。
 - redux で管理した state を変更するためには、かならず ** aciton ** ** dispatch ** することで行うこと。(`this.setState()`は使わない)
 - ** reducer ** は 「一つ前の state, ** dispatch ** された ** action **」を元に新しい state を生成するための ** 「関数」 **。
-- Redux が生成した store を React で使用するためには、store を React Component に Connect する。（Redux 単体は、単に state 管理のためのアプリケーションなので、React と結び付けないと）
+- Redux が生成した store を React で使用するためには、store を React Component に `Connect` する。（Redux 単体は、単に state 管理のためのアプリケーションなので、React と結び付ける作業は react-redux でおこなう）
 
       
 ![](/assets/redux.003.jpeg)
+
+### store 
+Redux の中心的な存在です。`action` を受け取ってその内容を元に、一つ前の state に対して ** reducer ** で変更を加えた「新しい state」を生成し、それによって state を更新します。
+
 
