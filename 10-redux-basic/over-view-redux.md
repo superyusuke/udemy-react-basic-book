@@ -75,6 +75,10 @@ store.dispatch({
 
 ## store を react で使うために Provider, connect が必要
 
+### Provider
+
+`Provider` コンポーネントで、App の一番上のコンポーネントをラッピングし、store を渡すことで、それより下のコンポーネントに対して、store を渡す。
+
 ```js
 import { Provider } from "react-redux";
 
