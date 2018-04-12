@@ -35,10 +35,12 @@ const store = createStore(reducer);
 
 ### reducer 
 
-`state` を変更するために使用する関数。
+`state` を変更するために使用する関数です。
+一つ前の state と、受け取った action の内容を元に、新しい state を作って return する関数です。action.type で分岐して返す内容を決めています。
+
 
 ```js
-// 一個前の state と、受け取った action の内容を元に
+// 一つ前の state と、受け取った action の内容を元に
 // 新しい state を作って return する関数
 const reducer = (state = 0, action) => {
   switch (action.type) {
