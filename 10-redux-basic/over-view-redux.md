@@ -97,3 +97,9 @@ render(
 
 ```
 
+### connect
+React Component に対して、store の state と dispatch を props として渡していくために使用するメソッドです
+
+```js
+```
+
