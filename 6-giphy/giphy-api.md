@@ -42,6 +42,7 @@ axios.get(url).then(res => {
   const imageUrl = data[0].images.downsized.url;
   console.log(imageUrl);
 
+  // img 要素を生成して、body 直下に強引に入れ込む
   const img = document.createElement("img");
   img.src = imageUrl;
   document.body.appendChild(img);
