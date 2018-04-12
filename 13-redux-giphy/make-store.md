@@ -1,6 +1,6 @@
 # store を作る
 
-## store の準備
+## - store の準備
 
 https://codesandbox.io/s/0q54o9lxw0
 
@@ -44,7 +44,7 @@ const App = () => {
 export default App;
 ```
 
-## reducer の作成
+## - reducer の作成
 https://codesandbox.io/s/mq63n3m9oj
 
 ### reducers/imageUrls.js

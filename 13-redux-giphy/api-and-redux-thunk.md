@@ -1,6 +1,6 @@
 # GiphyAPI を叩くメソッドの作成と Redux-thunk を使った非同期処理
 
-## GiphyAPI を叩くメソッドの作成
+## - GiphyAPI を叩くメソッドの作成
 
 https://codesandbox.io/s/k30no82zo5
 
@@ -40,7 +40,7 @@ giphyAPI("cat").then(res => {
 
 ```
 
-## redux-thunk を適用する
+## - redux-thunk を適用する
 
 https://codesandbox.io/s/9zx8nrnzjr
 
@@ -60,7 +60,7 @@ const store = createStore(rootReducer, applyMiddleware(...middleWares));
 
 ```
 
-## action を作る
+## - action を作る
 
 https://codesandbox.io/s/64rq4lyj23
 
@@ -125,7 +125,7 @@ store.dispatch(getUrls("cat"));
 
 ```
 
-## Search コンポーネントにメソッドを connect する
+## - Search コンポーネントにメソッドを connect する
 
 https://codesandbox.io/s/0or0zq8pvn
 
