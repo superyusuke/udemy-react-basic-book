@@ -11,6 +11,12 @@ store を作っていきます。
 ```js
 import { createStore } from "redux";
 
+### redux を dependencies に追加する
+
+add dependencies => redux
+
+### reducer を定義する
+
 // reducer を定義する
 // state の初期値を 0 にしている
 const reducer = (state = 0, action) => {
