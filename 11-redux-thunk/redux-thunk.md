@@ -59,6 +59,9 @@ render(
 
 #### actions/index.js
 
+これは Action Creator ですが、** action そのものを返すのではなく **、
+「内部でアクションを dispatch する ** 関数 **」を返してあげます。関数が dispatch されてくると、middleWare に使われている redux-thunk が見つけて、対応してくれます。
+
 ```js
 // (dispatch) => {} という関数を返すようにする
 // この中で dispatch(action) をすればよい
