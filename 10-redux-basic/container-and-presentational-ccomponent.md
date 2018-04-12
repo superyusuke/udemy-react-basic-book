@@ -23,6 +23,10 @@ https://codesandbox.io/s/o5rok9m2y9
 
 ### components/App.js
 
+見た目だけを担当するコンポーネント。
+number, plus, minus の内容はここでは定義していない。
+受け取るだけ。
+
 ```js
 import React from "react";
 
@@ -52,6 +56,9 @@ export default App;
 
 ### containers/App.js
 
+ロジックを与えるコンポーネント。
+state, dispatch などを定義して、Presentatinal Component に渡す役割。
+(ここでは connect で、ロジックを渡された新しいコンポーネントを作っている)
 
 ```js
 import App from "../components/App";
