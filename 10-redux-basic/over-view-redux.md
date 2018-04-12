@@ -22,6 +22,14 @@
 ![](/assets/redux.003.jpeg)
 
 ### store 
-Redux の中心的な存在です。`action` を受け取ってその内容を元に、一つ前の state に対して ** reducer ** で変更を加えた「新しい state」を生成し、それによって state を更新します。
+Redux の中心的な存在です。`action` を受け取ってその内容を元に、「一つ前の state」 に対して ** reducer ** で変更を加えた「新しい state」を生成し、それによって state を更新します。
 
+```js
+// redux から　createStore を読み込む
+import { createStore } from "redux";
+
+// これを使って store を作る
+// その際に reducer が必要
+const store = createStore(reducer);
+```
 
