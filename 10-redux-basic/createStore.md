@@ -59,6 +59,41 @@ store.dispatch({ type: "MINUS_ONE" });
 
 https://codesandbox.io/s/olwrv2rnxy
 
+index.js
+
+```js
+// action に type だけではなく、
+// payload など他のプロパティも持たせることで、
+// reducer の中で使用できる
+store.dispatch({ type: "PLUS", payload: { num: 1 } });
+store.dispatch({ type: "PLUS", payload: { num: 10 } });
+
+store.dispatch({ type: "MINUS", payload: { num: 1 } });
+store.dispatch({ type: "MINUS", payload: { num: 10 } });
+
+```
+
+reducer.js
+
+```js
+const reducer = (state = 0, action) => {
+  switch (action.type) {
+    case "PLUS":
+      // aciton.payload を活用
+      return state + action.payload.num;
+
+    case "MINUS":
+      return state - action.payload.num;
+
+    default:
+      return state;
+  }
+};
+
+export default reducer;
+
+```
+
 ## reducer.js に切り出す
 
 reducer.js
