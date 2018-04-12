@@ -19,6 +19,7 @@ const giphyApi = word => {
   const limit = 3;
   const url = `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}&limit=${limit}`;
 
+  // promise オブジェクトが return 
   return axios.get(url);
 };
 
