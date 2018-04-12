@@ -75,14 +75,18 @@ store.dispatch({
 
 ## store を react で使うために Provider, connect が必要
 
-Redux の store を作っただけでは、store は宙ぶらりんの状態で、React で使う準備はできていません。React で store を使うために、準備が必要です
+Redux の store を作っただけでは、store は宙ぶらりんの状態で、React で使う準備はできていません。React で store を使うために、準備が必要です。この役割は ** react-redux ** が担います。
 
 ### Provider
 
-`Provider` コンポーネントで、App の一番上のコンポーネントをラッピングし、store を渡すことで、それより下のコンポーネントに対して、store を渡す。
+`Provider` コンポーネントで、App の一番上のコンポーネントをラッピングし、store を渡すことで、それより下のコンポーネントに対して、store を渡します。
 
 ```js
+// react と redux を結びつけるために react-redux を用いる
 import { Provider } from "react-redux";
+
+// 階層的に一番上のコンポーネントを Provider でラッピングし
+// store を渡すことで、それより下位層で store を使用できるように準備する
 
 render(
   <Provider store={store}>
