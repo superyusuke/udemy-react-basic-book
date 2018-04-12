@@ -96,7 +96,7 @@ import reducer from "./reducer";
 
 import { Provider } from "react-redux";
 
-// containers のほうを使う
+// container コンポーネントのほうを使う
 import App from "./containers/App";
 
 const store = createStore(reducer);
