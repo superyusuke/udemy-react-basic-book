@@ -84,6 +84,8 @@ JSON フォーマッター等で確認しましょう。
 
 [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 
+もしくは CodeSandbox で .json というファイルを作ってその中で Prettier を使ってフォーマッティングしても良い。
+
 ## MyJson というサービスで JSON を返すだけの API を作る
 
 myjson.com \([http://myjson.com/](http://myjson.com/)\) を使用する。返す JSON の内容を自分で決めることができる
