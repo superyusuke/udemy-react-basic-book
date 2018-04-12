@@ -58,7 +58,7 @@ export default App;
 
 ロジックを与えるコンポーネント。
 state, dispatch などを定義して、Presentatinal Component に渡す役割。
-(ここでは connect で、ロジックを渡された新しいコンポーネントを作っている)
+(ここでは実際には connect で、ロジックを渡された新しいコンポーネントを作っている)
 
 ```js
 import App from "../components/App";
