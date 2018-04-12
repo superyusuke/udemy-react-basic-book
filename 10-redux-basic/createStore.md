@@ -46,7 +46,8 @@ store.subscribe(() => {
   console.log(store.getState());
 });
 
-// action を dispatch する
+// 仮に action を dispatch し、
+// reducer が機能しているか確認する
 store.dispatch({ type: "PLUS_ONE" });
 store.dispatch({ type: "PLUS_ONE" });
 
