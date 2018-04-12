@@ -10,9 +10,16 @@ https://codesandbox.io/s/o5rok9m2y9
 
 ## ロジックと見た目を切り分ける
 
-Presentational Component、つまり見た目を担当するコンポーネントは、ロジックに関与しないようにする。
+** Presentational Component **、つまり見た目を担当するコンポーネントは、ロジックに関与しないようにします。
 
-Container Component が、Presentational Component にロジックを与える役割を担う。
+** Container Component ** が、Presentational Component にロジックを与える役割を担います。
+
+プログラミングの原則として、疎結合 = つまり、各機能が切り分けられている状態を目指すことが推奨されます。Container Component と Presentational Component に分けることで、見た目とロジックを切り分けることができます
+
+こうすることで、例えばデザイナー、マークアップ担当者は見た目の挙動だけを担当し
+フロントエンドエンジニアはロジックだけを担当する、といった作業が容易になります。(プログラミングはそんなに簡単にはいきませんが…)
+
+ここでは、Container Component は、Presentatinal Component に対して redux の store を connect する役割だけを担っています。
 
 ### components/App.js
 
