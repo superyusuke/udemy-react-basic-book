@@ -1,4 +1,4 @@
-# Container Component と Presentational Component
+実際には# Container Component と Presentational Component
 
 参考翻訳記事
 
