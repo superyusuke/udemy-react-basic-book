@@ -38,6 +38,7 @@ axios.get(url).then(res => {
   const data = res.data.data;
   
   // 全てのデータの中から、仮に最初の要素の、gif 用 URL を取り出す
+  // この URL が画像を取得する際に必要となるもの
   const imageUrl = data[0].images.downsized.url;
   console.log(imageUrl);
 
