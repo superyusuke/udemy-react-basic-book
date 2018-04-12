@@ -27,7 +27,7 @@ const reducer = (state = 0, action) => {
     case "MINUS_ONE":
       return state - 1;
 
-    // 初期値を設定するためにも必要
+    // 初期値を設定するためも必要
     default:
       return state;
   }
