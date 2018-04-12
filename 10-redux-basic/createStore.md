@@ -17,7 +17,6 @@ add dependencies => redux
 ```js
 import { createStore } from "redux";
 
-
 // reducer を定義する
 // state の初期値を 0 にしている
 const reducer = (state = 0, action) => {
