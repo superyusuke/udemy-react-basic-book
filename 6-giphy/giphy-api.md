@@ -36,6 +36,8 @@ const url = `https://api.giphy.com/v1/gifs/search?q=${search}&api_key=${key}&lim
 axios.get(url).then(res => {
   console.log(res.data);
   const data = res.data.data;
+  
+  // 全てのデータの中から、仮に最初の要素の、gif 用 URL を取り出す
   const imageUrl = data[0].images.downsized.url;
   console.log(imageUrl);
 
