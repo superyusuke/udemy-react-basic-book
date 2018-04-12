@@ -6,6 +6,8 @@ https://codesandbox.io/s/013mn57x20
 
 Action Creator は、単にアクションを作成し、返すだけの関数です。これを `dispatch(actionCreator())` と使用することで、アクションを作成し、dispatch します。
 
+action が複雑になってきたら、action creator を活用しましょう。
+
 ### actions/index.js
 
 ```js
