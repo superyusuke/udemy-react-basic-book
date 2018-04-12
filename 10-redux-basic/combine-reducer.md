@@ -72,9 +72,11 @@ import { connect } from "react-redux";
 import { minus, plus } from "../actions";
 
 // 渡す state を増やす
+// state.プロパティ名 という形で、
+// combine された　reducer にアクセスします
 const mapStateToProps = state => {
   return {
-    number: state.number,
+    number: state.number, 
     day: state.day,
     title: state.title
   };
