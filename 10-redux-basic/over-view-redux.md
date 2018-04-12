@@ -54,7 +54,8 @@ const reducer = (state = 0, action) => {
 
 ### action と dispatch
 
-`action` は単なるオブジェクトです。`dispatch` で `action` を発行すると、`store` に送られて、state の更新のために使われます。`reducer` が受け取って、`action.type` によって分岐していましたよね。
+`action` は単なるオブジェクトです。`dispatch` によって発行されます。
+`dispatch` で `action` を発行すると、`store` に送られて、state の更新のために使われます。`reducer` が受け取って、`action.type` によって分岐していましたよね。
 
 ```js
 // action の dispatch
@@ -71,4 +72,18 @@ store.dispatch({
   payload: "something"
 }
 ``` 
+
+## store を react で使うために Provider, connect が必要
+
+```js
+import { Provider } from "react-redux";
+
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
+
+```
 
