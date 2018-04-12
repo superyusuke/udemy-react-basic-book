@@ -129,12 +129,14 @@ render() {
 
 https://codesandbox.io/s/n0ppvpzqm4
 
-### todoApp で作ったコンポーネントを活用する
+### todoApp で作ったコンポーネントを活用して Search コンポーネントを作る
+
+components/Search.js
 
 ```js
 import React from "react";
 
-export class AddTodo extends React.Component {
+export class Search extends React.Component {
   constructor(props) {
     super(props);
     this.state = { title: "" };
@@ -143,10 +145,10 @@ export class AddTodo extends React.Component {
   render() {
     return (
       <div>
-        <h2>AddTodo</h2>
+        <h2>Find Your GIF</h2>
         <form onSubmit={this.handleSubmit}>
           <input value={this.state.title} onChange={this.handleChange} />
-          <input type="submit" value="Add to todo list" />
+          <input type="submit" value="Search!!" />
         </form>
       </div>
     );
@@ -159,10 +161,31 @@ export class AddTodo extends React.Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    this.props.addTodo(this.state.title);
+    // 受け取ったメソッドを実行し、app の state を変更している
+    this.props.search(this.state.title);
     this.setState({ title: "" });
   };
 }
+```
+
+### Search Component を配置する
+
+```js
+// addTodo を再利用したコンポーネントを読み込む
+import { Search } from "./components/Search";
+
+class App extends React.Component {
+  // 省略
+  
+  render() {
+    // Search を使用する
+    return (
+      <div>
+        <Search search={this.giphyApi} />
+        {this.renderImageList(this.state.gifUrlList)}
+      </div>
+    );
+  }
 ```
 
 ### Search コンポーネントにメソッドを渡す
