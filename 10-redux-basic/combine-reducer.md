@@ -43,7 +43,7 @@ export default title;
 
 ### reducers/index.js
 
-複数の reducer をまとめあげます
+複数の reducer をまとめあげます。
 
 ```js
 import { combineReducers } from "redux";
@@ -73,7 +73,7 @@ import { minus, plus } from "../actions";
 
 // 渡す state を増やす
 // state.プロパティ名 という形で、
-// combine された　reducer にアクセスします
+// 一本化された　state にアクセスします
 const mapStateToProps = state => {
   return {
     number: state.number, 
