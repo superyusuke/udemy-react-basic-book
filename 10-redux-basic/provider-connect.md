@@ -6,8 +6,11 @@
 
 https://codesandbox.io/s/6xoq10ov73
 
+### react-redux を dependencies に追加する
 
-index.js
+add dependencies => react-redux
+
+### index.js
 
 ```js
 import React from "react";
