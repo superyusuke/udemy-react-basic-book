@@ -23,6 +23,7 @@ import reducer from "./reducer";
 // Provider でラッピングする
 import { Provider } from "react-redux";
 
+// 別ファイルに切り出しています
 import App from "./App";
 
 const store = createStore(reducer);
@@ -54,9 +55,11 @@ import { connect } from "react-redux";
 // props に number, plus, minus が入ってくる
 const App = ({ number, plus, minus }) => (
   <div>
+    {/* number として受け取った state を使用する */}
     <h2>App {number}</h2>
     <button
       onClick={() => {
+        // plus として受け取ったメソッドを使用する
         plus(10);
       }}
     >
