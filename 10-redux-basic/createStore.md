@@ -12,7 +12,7 @@ store を作っていきます。
 
 add dependencies => redux
 
-### reducer を定義する
+### reducer を定義し、それを元に store を作る
 
 ```js
 import { createStore } from "redux";
