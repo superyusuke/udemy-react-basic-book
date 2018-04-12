@@ -75,7 +75,7 @@ store.dispatch({
 
 ## store を react で使うために Provider, connect が必要
 
-Redux の store を作っただけでは、宙ぶらりんの状態で、React で使う準備はできていない。使うため
+Redux の store を作っただけでは、store は宙ぶらりんの状態で、React で使う準備はできていません。React で store を使うために、準備が必要です
 
 ### Provider
 
