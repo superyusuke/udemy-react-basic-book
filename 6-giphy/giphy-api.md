@@ -178,7 +178,7 @@ class App extends React.Component {
   // 省略
   
   render() {
-    // Search を使用する
+    // Search コンポーネントを使用する
     return (
       <div>
         <Search search={this.giphyApi} />
@@ -218,6 +218,8 @@ handleSubmit = event => {
 ```
 
 ### 検索対象を引数として受け取って使用する
+
+index.js
 
 ```js
 // 検索対象を target という引数で受けて使用する
