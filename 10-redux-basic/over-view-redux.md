@@ -99,12 +99,20 @@ render(
 
 ### connect
 React Component に対して、store の `state` と `dispatch` を `props` として渡していくために使用するメソッドです。
+これらを受け取った、新しいコンポーネントを作成します。
 
 ```js
-// connect を import
+import React from "react";
+
+// React Component に対して、
+// store の `state` と `dispatch` を `props` として
+// 渡していくために使用するメソッドです。
 import { connect } from "react-redux";
 
-// この部分は普通のコンポーネント
+// 普通のコンポーネントです
+// someState(state) と doSomThins(dispatch するメソッド)
+// を props として受け取っています。
+// これは connect で渡されたものです
 const Component = ({ someState, doSomeThing }) => {
   return <div onClick={() => doSomeThing("some")}>{someState}</div>;
 };
@@ -127,6 +135,5 @@ const mapDispatchToProps = dispatch => {
 
 // コンポーネントに対して、store の state と dispatch を connect する。
 export default connect(mapStateToProps, mapDispatchToProps)(Component);
-
 ```
 
