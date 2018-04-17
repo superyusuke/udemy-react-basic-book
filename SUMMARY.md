@@ -49,4 +49,5 @@
   * [Search コンポーネントの作成](13-redux-giphy/seach-components.md)
   * [GiphyAPI を叩くメソッドの作成と Redux-thunk を使った非同期処理](13-redux-giphy/api-and-redux-thunk.md)
   * [改善](13-redux-giphy/modify.md)
+* [参考資料と謝辞](reference-and-acknowledgment/README.md)
 
