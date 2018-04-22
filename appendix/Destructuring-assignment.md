@@ -2,6 +2,9 @@
 
 https://codesandbox.io/s/r50k3n0z4m
 
+オブジェクトを展開して、変数に代入するシンタックスです。
+React 開発においては、以下のケースが頻出します。
+
 index.js
 
 ```js
