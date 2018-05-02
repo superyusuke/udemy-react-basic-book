@@ -1,6 +1,10 @@
 # Class Component と Functional Component の使いわけ
 
 ```javascript
-const Component = () => <div>Component</div>
+const FunctionalComponent = () => <div>Component</div>
+```
+
+```javascript
+class ClassComponent extends React.Component {...}
 ```
 
