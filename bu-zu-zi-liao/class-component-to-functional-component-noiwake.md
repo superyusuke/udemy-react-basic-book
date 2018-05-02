@@ -9,6 +9,23 @@ Class Component と Functional Component、どちらを選択するのが良い�
 * state を持たせる必要がある
 * Lifecycle method を使う必要がある\(componentDidMount 等\)
 
+```javascript
+class Component extends React.Component {
+    constructor(props){
+        super(props)
+        this.state = {name: ''}
+    }
+    
+    componentDidMount() {...}
+    
+    calcurlate() {...}
+    
+    maltiply() {...}
+    
+    render() {...}
+}
+```
+
 ### Functional Component を使う場合
 
 反対に、こういったケース「以外」は全て Functional Component にすることができます。
@@ -27,10 +44,24 @@ class Component extends React.Component {
     
     calcurlate() {...}
     
+    maltiply() {...}
     
     render() {...}
 }
 ```
 
+### props を元に render するだけのものは Functional Component にする方が良い
 
+props を受け取って、それを元にレンダーするだけの Component であれば、Functional に書いた方が基本的に良いと思います。
+
+```javascript
+const Component = ({title, day, imageUrl}) => {
+    const alt = `${title} ${day}`
+    return <img href={imageUrl} alt={alt}/>
+}
+```
+
+### ただし最後は任意
+
+以上のような原則はありますが、最終的にはどちらを選択しても問題ありません。参考になれば幸いです。
 
