@@ -31,7 +31,7 @@ render(
 );
 ```
 
-### export default するパターン
+### export default するパターンの書き方
 
 ```javascript
 // ClassComponent1.js
@@ -64,7 +64,7 @@ class ClassComponent2 extends React.Component {
 export default ClassComponent2;
 ```
 
-### export default 「しない」パターン
+### export default 「しない」パターンの書き方
 
 ```javascript
 // ClassComponent3.js
