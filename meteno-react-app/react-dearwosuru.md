@@ -1,6 +1,6 @@
 # React でアロー関数を使用する
 
-https://codesandbox.io/s/kx2lr0rvyr
+[https://codesandbox.io/s/kx2lr0rvyr](https://codesandbox.io/s/kx2lr0rvyr)
 
 アロー関数の React アプリケーション開発における実際的なユースケースをみていきましょう。
 

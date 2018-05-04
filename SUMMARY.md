@@ -12,6 +12,7 @@
   * [React でアロー関数を使用する](meteno-react-app/react-dearwosuru.md)
   * [初めての React Component](meteno-react-app/meteno-react-component.md)
   * [ES2015 の import / export](meteno-react-app/es2015-no-import-export.md)
+  * [export default](meteno-react-app/export-default.md)
   * [2章の復習](meteno-react-app/2no.md)
 * [State を持ったコンポーネント](state-wottakonpnento/README.md)
   * [State とは何か](state-wottakonpnento/state-tohaka.md)
