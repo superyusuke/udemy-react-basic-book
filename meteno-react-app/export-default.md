@@ -1,5 +1,7 @@
 # export default
 
+### export default というシンタックスについて
+
 ```javascript
 // index.js
 
