@@ -1,6 +1,14 @@
 # export default
 
+[https://codesandbox.io/s/93qnn3wyzp](https://codesandbox.io/s/93qnn3wyzp)
+
 ### export default というシンタックスについて
+
+export default と書くシンタックスがあり、先ほど説明したものとは少し異なります。大きな違いは以下の通りです。
+
+* export default したものに関しては、import するときに {} を使わない。
+* 1 ファイル内で、1 export default だけしかできない。\(通常の export は複数できる\)
+* そのため、1ファイルに1コンポーネントだけを作る場合には、default を使う場合がスタンダード
 
 ```javascript
 // index.js
