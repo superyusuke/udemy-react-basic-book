@@ -44,3 +44,33 @@ const App = ({ name, music }) => (
 export default App;
 ```
 
+### よりシンプルな例
+
+[https://codesandbox.io/s/20z1q3lnqp](https://codesandbox.io/s/20z1q3lnqp)
+
+{% code-tabs %}
+{% code-tabs-item title="index.js" %}
+```javascript
+// オブジェクトを分割して引数に受け取るシンタックス
+// 受け取ったオブジェクトのプロパティネームが name ものが name の変数に入る
+// val も同じく
+const func1 = ({ name, val }) => {
+  console.log(name, "name");
+  console.log(val, "val");
+};
+
+// オブジェクトを定義
+const object1 = {
+  val: "test",
+  name: "nakanishi"
+};
+
+// オブジェクトを代入する
+func1(object1);
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
+

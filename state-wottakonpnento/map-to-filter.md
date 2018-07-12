@@ -28,7 +28,7 @@ console.log(newArray2);
 
 [https://codesandbox.io/s/qq7j1k06p4](https://codesandbox.io/s/qq7j1k06p4)
 
-map は配列に対して実行できる JavaScript の組み込みメソッド\(元から用意されているメソッド\)で、配列を元に **「**`true`** を返した場合の要素だけが採用された」**新しい配列を作るために使用します。
+map は配列に対して実行できる JavaScript の組み込みメソッド\(元から用意されているメソッド\)で、配列を元に **「**`true` **を返した場合の要素だけが採用された」**新しい配列を作るために使用します。
 
 ```javascript
 const array1 = [1, 2, 3, 4, 5];

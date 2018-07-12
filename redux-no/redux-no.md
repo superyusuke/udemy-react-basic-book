@@ -13,17 +13,17 @@
 ![](../.gitbook/assets/redux.002.jpeg)
 
 * Redux は state の管理\(保持と変更\)を担当する。
-* Redux の ** store ** がそれを主に担当する。
-* ** store ** は 「一つ前の state, ** dispatch ** された ** action **, ** reducer **」を用いて、新しい state を生成し、これで自分自身の state を上書きすることで state を更新する。
-* redux で管理した state を変更するためには、かならず ** aciton ** を ** dispatch ** することで行うこと。\(`this.setState()`は使わない\)
-* ** reducer ** は 「一つ前の state, ** dispatch ** された ** action **」を元に新しい state を生成するための ** 「関数」 **。
+* Redux の  **store**  がそれを主に担当する。
+*  **store**  は 「一つ前の state,  **dispatch**  された  **action** ,  **reducer** 」を用いて、新しい state を生成し、これで自分自身の state を上書きすることで state を更新する。
+* redux で管理した state を変更するためには、かならず  **aciton**  を  **dispatch**  することで行うこと。\(`this.setState()`は使わない\)
+*  **reducer**  は 「一つ前の state,  **dispatch**  された  **action** 」を元に新しい state を生成するための  **「関数」** 。
 * Redux が生成した store を React で使用するためには、store を React Component に `Connect` する。（Redux 単体は、単に state 管理のためのアプリケーションなので、React と結び付ける作業は react-redux でおこなう）
 
 ![](../.gitbook/assets/redux.003.jpeg)
 
 ### store
 
-Redux の中心的な存在です。`action` を受け取ってその内容を元に、「一つ前の state」 に対して ** reducer ** で変更を加えた「新しい state」を生成し、それによって state を更新します。
+Redux の中心的な存在です。`action` を受け取ってその内容を元に、「一つ前の state」 に対して  **reducer**  で変更を加えた「新しい state」を生成し、それによって state を更新します。
 
 ```javascript
 // redux から　createStore を読み込む
@@ -73,7 +73,7 @@ store.dispatch({
 
 ## store を react で使うために Provider, connect が必要
 
-Redux の store を作っただけでは、store は宙ぶらりんの状態で、React で使う準備はできていません。React で store を使うために、準備が必要です。この役割は ** react-redux ** が担います。
+Redux の store を作っただけでは、store は宙ぶらりんの状態で、React で使う準備はできていません。React で store を使うために、準備が必要です。この役割は  **react-redux**  が担います。
 
 ### Provider
 
